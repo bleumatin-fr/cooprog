@@ -1,0 +1,69 @@
+{
+  "unknown_venue": "Structure de diffusion non précisée",
+  "venue_dashboard": {
+    "project_with_interest": {
+      "title": "Projets avec intérêt"
+    },
+    "scheduled_projects": {
+      "title": "Projets programmés"
+    },
+    "date_tab_one": "Projet avec dates ({{count}})",
+    "date_tab_other": "Projets avec dates ({{count}})",
+    "interest_tab_one": "Projet avec intérêt ({{count}})",
+    "interest_tab_other": "Projets avec intérêt ({{count}})",
+    "no_date_title": "Aucun projet programmé",
+    "no_date_text": "Vous n'avez actuellement aucun projet avec une date confirmée ou en attente. Une fois qu'un projet sera planifié avec votre structure, vous le retrouverez ici.",
+    "no_interest_title": "Aucun projet marqué avec intérêt",
+    "no_interest_text": "Vous n'avez pas encore manifesté d'intérêt pour un projet. Explorez les projets disponibles pour découvrir les œuvres qui pourraient correspondre à votre programmation."
+  },
+  "artistic_dashboard": {
+    "title_one": "Mon évènement",
+    "title_other": "Mes évènements ({{count}})",
+    "select_work": "Projets",
+    "no_structure_title": "Aucun projet trouvé pour votre équipe",
+    "no_structure_text": "Aucun projet n'est actuellement lié à votre équipe artistique. Si vous pensez qu'il s'agit d'une erreur ou si vous souhaitez enregistrer un projet, contactez l'équipe Cooprog ou votre structure de diffusion partenaire."
+  },
+  "my-projects": {
+    "title": "Mes projets ({{count}})"
+  },
+  "all-cooprog": {
+    "title": "La communauté CooProg",
+    "all-projects": {
+      "title": "Projets de la communauté CooProg",
+      "main": "<0>{{count}}</0><1>projets actifs</1>",
+      "sub": "<1>dont</1> <0>{{count}}</0> <1>nouveaux projets</1>",
+      "submit": "Voir tous les projets"
+    },
+    "all-users": {
+      "title": "<0>{{count}}</0><1>structures de diffusion actives</1>",
+      "subtitle": "<1>dont</1> <0>{{count}}</0> <1>nouvellement inscrites</1>",
+      "button": "Voir toutes les structures de diffusion"
+    },
+    "all-artistic-teams": {
+      "title": "<0>{{count}}</0><1>équipes artistiques actives</1>",
+      "subtitle": "<1>dont</1> <0>{{count}}</0> <1>nouvelles équipes artistiques</1>",
+      "button": "Voir toutes les équipes artistiques"
+    }
+  },
+  "notifications": {
+    "title": "Notifications"
+  },
+  "no_dashboard": {
+    "title": "Bienvenue sur CooProg !",
+    "description": "En tant que {{role}}, vous n'avez pas de tableau de bord de planification personnel car cette fonctionnalité est spécifiquement conçue pour les équipes artistiques et les structures de diffusion afin de gérer leurs projets et leurs tournées.\n\nNe vous inquiétez pas ! Vous pouvez toujours :\n- Parcourir et découvrir tous les projets de la communauté\n- Consulter les informations détaillées de chaque projet\n- Suivre l'avancement des tournées et des représentations\n\nUtilisez le menu ci-dessus pour explorer toutes les fonctionnalités à votre disposition !"
+  },
+  "empty_dashboard": {
+    "artistic_team": {
+      "title": "Bienvenue sur votre tableau de bord !",
+      "description": "Votre spectacle apparaîtra sur le tableau de bord dès qu’une structure de diffusion posera la première date (en option ou confirmée) d’un premier projet de tournée.\n\n**Une fois cette première date posée, la tournée est lancée !**\nIndiquez toutes les dates de la tournée, vos périodes de programmation souhaitées, partagez les évolutions du projet dans le chat et complétez toutes les informations nécessaires à son organisation.",
+      "create_project": "Chercher ou créer un spectacle sur CooProg",
+      "create_project_explanation": "Vérifiez si votre spectacle est déjà sur CooProg ou créez-le en cliquant sur le bouton ci-dessus !"
+    },
+    "diffusion_structure": {
+      "title": "Bienvenue sur le tableau de bord !",
+      "description": "Il n'y a encore rien ici... mais ça ne saurait tarder ! 🌟\n\nVotre tableau de bord se remplira au fur et à mesure de vos programmations.\n\nCommencez dès maintenant à **explorer les projets en tournée** ou à **partager vos intentions de programmation**.",
+      "create_project": "Créer un projet",
+      "browse_projects": "Explorer les projets"
+    }
+  }
+}

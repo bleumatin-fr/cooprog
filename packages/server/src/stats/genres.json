@@ -1,0 +1,142 @@
+[
+  {
+    "id": "0",
+    "name": "Theater",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "1",
+    "name": "Dance",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "2",
+    "name": "Performance",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "3",
+    "name": "Circus",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "4",
+    "name": "Puppetry arts theater",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "5",
+    "name": "Art in the public space",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "6",
+    "name": "Experimental music",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "7",
+    "name": "Cine-concert",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "8",
+    "name": "Digital arts",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "9",
+    "name": "Visual arts",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "10",
+    "name": "Reading",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "11",
+    "name": "Storytelling / Art of speech",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "12",
+    "name": "Magie nouvelle",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "13",
+    "name": "Performed conference",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "14",
+    "name": "Classical Music / Repertoire Music ",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "15",
+    "name": "In situ project",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "16",
+    "name": "Cabaret",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "17",
+    "name": "Electro",
+    "discipline": "music"
+  },
+  {
+    "id": "18",
+    "name": "Jazz / Blues",
+    "discipline": "music"
+  },
+  {
+    "id": "19",
+    "name": "Metal / Hard Rock",
+    "discipline": "music"
+  },
+  {
+    "id": "20",
+    "name": "World Music",
+    "discipline": "music"
+  },
+  {
+    "id": "21",
+    "name": "Folk Music",
+    "discipline": "music"
+  },
+  {
+    "id": "22",
+    "name": "Pop",
+    "discipline": "music"
+  },
+  {
+    "id": "23",
+    "name": "Rap / Hip-Hop",
+    "discipline": "music"
+  },
+  {
+    "id": "24",
+    "name": "Reggae",
+    "discipline": "music"
+  },
+  {
+    "id": "25",
+    "name": "Rock",
+    "discipline": "music"
+  },
+  {
+    "id": "26",
+    "name": "R'n'B / Soul",
+    "discipline": "music"
+  },
+  {
+    "id": "27",
+    "name": "Young Audiences",
+    "discipline": "music"
+  }
+]

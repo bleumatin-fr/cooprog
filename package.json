@@ -1,0 +1,16 @@
+{
+  "name": "cooprog",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "test": "yarn workspace ops test",
+    "test:ui": "yarn workspace ops test:watch",
+    "test:headed": "yarn workspace ops test --headed",
+    "test:debug": "yarn workspace ops test --debug",
+    "test:report": "yarn workspace ops test --reporter=html",
+    "test:install": "yarn workspace ops exec playwright install"
+  }
+}

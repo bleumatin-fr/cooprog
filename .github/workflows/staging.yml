@@ -1,0 +1,60 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Staging deployment
+
+# on:
+#   push:
+#     branches: ["main"]
+
+jobs:
+  deployment:
+    runs-on: self-hosted
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Fix permissions
+        run: |
+          sudo chmod -R 777 ${GITHUB_WORKSPACE}
+
+      - uses: actions/checkout@v2
+
+      - name: Using Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+          cache: "yarn"
+
+      - name: Logging in to Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ${{ secrets.PRIVATE_REGISTRY_URL }}
+          username: ${{ secrets.PRIVATE_REGISTRY_USERNAME }}
+          password: ${{ secrets.PRIVATE_REGISTRY_PASSWORD }}
+
+      - name: Installing dependencies
+        run: |
+          corepack enable
+          make install
+
+      - name: Building
+        run: |
+          make build BUILD_ENV=staging API_BASE_URL=${{ secrets.STAGING_API_BASE_URL }} CLIENT_ENV=${{ secrets.STAGING_CLIENT_ENV }}
+          cd ${GITHUB_WORKSPACE}/packages/admin && docker build --no-cache --tag ${{ secrets.PRIVATE_REGISTRY_URL }}/cooprog/admin:${GITHUB_SHA} --tag ${{ secrets.PRIVATE_REGISTRY_URL }}/cooprog/admin:latest .
+          cd ${GITHUB_WORKSPACE}/packages/client && docker build --no-cache  --build-context core=../core --tag ${{ secrets.PRIVATE_REGISTRY_URL }}/cooprog/client:${GITHUB_SHA} --tag ${{ secrets.PRIVATE_REGISTRY_URL }}/cooprog/client:latest .
+          cd ${GITHUB_WORKSPACE}/packages/server && docker build --no-cache --build-context core=../core --tag ${{ secrets.PRIVATE_REGISTRY_URL }}/cooprog/server:${GITHUB_SHA} --tag ${{ secrets.PRIVATE_REGISTRY_URL }}/cooprog/server:latest .
+
+      - name: Deploying
+        run: |
+          docker push --all-tags ${{ secrets.PRIVATE_REGISTRY_URL }}/cooprog/admin
+          docker push --all-tags ${{ secrets.PRIVATE_REGISTRY_URL }}/cooprog/client
+          docker push --all-tags ${{ secrets.PRIVATE_REGISTRY_URL }}/cooprog/server
+
+      - name: Restarting
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.STAGING_SERVER_HOST }}
+          username: ${{ secrets.STAGING_SERVER_USERNAME }}
+          key: ${{ secrets.STAGING_SERVER_KEY }}
+          script: sudo bash -c "cd /home/debian/cooprog && docker compose down && docker compose pull && docker compose up -d"

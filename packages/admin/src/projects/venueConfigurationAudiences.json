@@ -1,0 +1,18 @@
+[
+  {
+    "id": "0",
+    "name": "Standing"
+  },
+  {
+    "id": "1",
+    "name": "Seated"
+  },
+  {
+    "id": "2",
+    "name": "Promenade show"
+  },
+  {
+    "id": "3",
+    "name": "Multiple options"
+  }
+]

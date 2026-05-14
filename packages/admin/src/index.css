@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+body > div {
+  width: 100%;
+}
+div[role="presentation"].MuiAutocomplete-popper {
+  z-index: 1000000;
+}
+
+.tour-form-iterator > ul > li {
+  display: block !important;
+}
+
+.tour-form-iterator > ul > li > span {
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+
+.tour-form-iterator > ul > li > .RaSimpleFormIterator-form {
+  flex-wrap: wrap;
+}

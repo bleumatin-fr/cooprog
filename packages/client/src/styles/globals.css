@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Libre Franklin Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Libre Franklin Medium"),
+    url("/librefranklin-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Libre Franklin Medium";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Libre Franklin Medium"),
+    url("/librefranklin-mediumitalic.woff") format("woff");
+}
+
+:root {
+  /* theme colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #7e7e8b;
+  --color-light-gray: #e6e7ed;
+  --color-very-light-gray: #f5f5f5;
+  --color-light-blue: #edfffa;
+  --color-dark-green: #123036;
+  --color-beige: #fff5e8;
+  --color-light-green: #829661;
+  --color-very-light-green: #ced7c1;
+  --color-orange: #ff7446;
+  --color-light-orange: #ffa16b;
+  --color-bg-gray: #f5f5f5;
+  --color-text-gray: #b6c0d4;
+  --color-light-blue: #dcecf1;
+  --color-dark-blue: #4168af;
+
+  /* discipline colors */
+  --color-spectacle: #ff6b6b;
+  --color-musique: #4ecdc4;
+  --color-livre: #45b7d1;
+  --color-arts: #96ceb4;
+
+  /* app colors */
+  --content-background-color: var(--color-bg-gray);
+  --error-background-color: var(--color-orange);
+  --error-text-color: var(--color-black);
+
+  --button-primary-background-color: var(--color-light-orange);
+  --button-primary-hover-color: var(--color-orange);
+  --button-primary-text: var(--color-white);
+
+  --button-secondary-background-color: var(--color-gray);
+  --button-secondary-hover-color: var(--color-gray);
+  --button-secondary-text: var(--color-black);
+
+  --button-warning-background-color: var(--color-gray);
+  --button-warning-hover-color: var(--color-gray);
+  --button-warning-text: var(--color-black);
+
+  --button-success-background-color: var(--color-light-green);
+  --button-success-hover-color: var(--color-gray);
+  --button-success-text: var(--color-black);
+
+  --favorited-background-color: #fdb75d;
+  --favorited-color: var(--color-white);
+
+  --pending-background-color: #80a2e2;
+  --pending-color: var(--color-white);
+
+  --unavailable-background-color: #ddd;
+  --unavailable-color: var(--color-black);
+
+  --out-of-range-background-color: #ccc;
+  --out-of-range-color: var(--color-black);
+
+  --booked-background-color: rgb(254, 255, 172);
+  --booked-color: var(--color-black);
+
+  --weekend-background-color: rgb(255, 246, 243);
+  --weekend-color: var(--color-black);
+
+  --wished-background-color: rgb(233, 243, 251);
+  --wished-color: var(--color-black);
+
+  --in-range-color: #028868;
+  --out-of-range-color: var(--color-dark-green);
+
+  --confirmed-background-color: #028868;
+  --confirmed-color: var(--color-white);
+
+  --my-background-color: var(--color-orange);
+  --my-color: var(--color-white);
+
+  --mui-palette-primary-main: var(--color-orange) !important;
+  --mui-palette-primary-mainChannel: 255 116 70 !important;
+  --mui-palette-primary-dark: var(--color-light-orange) !important;
+  --mui-palette-secondary-main: var(--color-dark-green) !important;
+  --mui-palette-secondary-mainChannel: 130 130 130 !important;
+}
+
+button {
+  --mui-palette-secondary-main: var(--color-light-orange) !important;
+  --mui-palette-secondary-mainChannel: 255 116 70 !important;
+  --mui-palette-secondary-dark: var(--color-light-orange) !important;
+}
+
+.app-bar {
+  --app-bar-background-color: var(--color-white);
+  --app-bar-color: var(--color-black);
+  --button-primary-background-color: var(--color-orange);
+  --button-primary-hover-color: var(--color-orange);
+  --button-primary-text: var(--color-white);
+}
+
+.project-list {
+  --mui-palette-primary-main: var(--color-orange) !important;
+  --mui-palette-primary-mainChannel: 255 116 70 !important;
+  --mui-palette-secondary-main: var(--color-dark-green) !important;
+  --mui-palette-secondary-mainChannel: 130 130 130 !important;
+}
+.user-list {
+  --mui-palette-primary-main: var(--color-orange) !important;
+  --mui-palette-primary-mainChannel: 255 116 70 !important;
+  --mui-palette-secondary-main: var(--color-dark-green) !important;
+  --mui-palette-secondary-mainChannel: 130 130 130 !important;
+}
+
+.project-card {
+  --app-project-card-dot-background: var(--color-orange);
+  --app-project-card-background: var(--color-white);
+  --app-project-card-background-hover: var(--color-light-orange);
+  --app-project-card-genre-border: var(--color-beige);
+}
+
+.home {
+  --mui-palette-primary-main: var(--color-light-orange) !important;
+  --mui-palette-primary-mainChannel: 255 116 70 !important;
+
+  --dashboard-accent-main: var(--color-orange);
+  --dashboard-accent-contrastText: var(--color-light-blue);
+
+  --dashboard-default-contrastText: var(--color-dark-green);
+
+  --app-project-card-genre-border: var(--color-white);
+  --app-project-card-dot-background: var(--color-orange);
+}
+.project-details {
+  --mui-palette-primary-main: var(--color-orange) !important;
+  --mui-palette-primary-mainChannel: 255 116 70 !important;
+  --app-project-details-border: var(--color-dark-green);
+}
+
+.user-list {
+  --mui-palette-secondary-main: var(--color-white) !important;
+}
+
+body {
+  background-color: var(--content-background-color);
+  color: black;
+  font-family: "Arial regular", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.leaflet-popup {
+  bottom: 32px !important;
+}
+
+.oo-background {
+  background: url("/images/bg.png") repeat-x top center fixed;
+  background-size: contain;
+}
+
+.mobile .oo-background {
+  background-size: auto;
+}
+.notistack-SnackbarContainer {
+  margin-top: 55px;
+  z-index: 10001 !important;
+}
+
+button.Mui-disabled {
+  pointer-events: auto !important;
+}
+
+.MuiTooltip-popper {
+  z-index: 10000 !important;
+}
+
+.MuiAutocomplete-popper {
+  z-index: 10000 !important;
+}
+
+.MuiDialog-root {
+  z-index: 10000 !important;
+}
+
+.MuiPickerPopper-root {
+  z-index: 10001 !important;
+}
+
+.MuiMenu-root,
+.MuiPopover-root {
+  z-index: 10002 !important;
+}
+
+.tour-circle-tooltip {
+  text-align: center !important;
+  font-size: 12px !important;
+  color: black !important;
+  background-color: white !important;
+  padding: 8px !important;
+  border-radius: 8px !important;
+  border: none !important;
+  box-shadow: none !important;
+  opacity: 0.8 !important;
+  line-height: 14px;
+  span {
+    font-size: 11px !important;
+  }
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 5px !important;
+}
+
+.leaflet-popup-content {
+  padding: 0;
+  margin: 5px !important;
+}
+
+#menu-month {
+  z-index: 10000 !important;
+}
+
+/* Override autofill styles to use browser defaults */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: none !important;
+  -webkit-text-fill-color: initial !important;
+  transition: none !important;
+}
+
+/* For dark mode support */
+@media (prefers-color-scheme: dark) {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: none !important;
+    -webkit-text-fill-color: initial !important;
+    transition: none !important;
+  }
+}
+
+.tour-circle-tooltip {
+  /* opacity: 0.3 !important; */
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  /* background-opacity: 0.1 !important; */
+}

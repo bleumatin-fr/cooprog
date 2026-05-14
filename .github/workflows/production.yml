@@ -1,0 +1,66 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Production deployment
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  deployment:
+    runs-on: self-hosted
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Fix permissions
+        run: |
+          sudo chmod -R 777 ${GITHUB_WORKSPACE}
+
+      - uses: actions/checkout@v2
+
+      - name: Using Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+          cache: "yarn"
+
+      - name: Installing dependencies
+        run: |
+          corepack enable
+          make install
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Building
+        run: |
+          make build BUILD_ENV=production API_BASE_URL=${{ secrets.PRODUCTION_API_BASE_URL }} CLIENT_ENV=${{ secrets.PRODUCTION_CLIENT_ENV }}
+          cd ${GITHUB_WORKSPACE}/packages/admin && docker build --no-cache --tag ghcr.io/bleumatin-fr/cooprog/admin:${GITHUB_SHA} --tag ghcr.io/bleumatin-fr/cooprog/admin:latest .
+          cd ${GITHUB_WORKSPACE}/packages/client && docker build --no-cache  --build-context core=../core --tag ghcr.io/bleumatin-fr/cooprog/client:${GITHUB_SHA} --tag ghcr.io/bleumatin-fr/cooprog/client:latest .
+          cd ${GITHUB_WORKSPACE}/packages/server && docker build --no-cache --build-context core=../core --tag ghcr.io/bleumatin-fr/cooprog/server:${GITHUB_SHA} --tag ghcr.io/bleumatin-fr/cooprog/server:latest .
+
+      - name: Deploying
+        run: |
+          docker push --all-tags ghcr.io/bleumatin-fr/cooprog/admin
+          docker push --all-tags ghcr.io/bleumatin-fr/cooprog/client
+          docker push --all-tags ghcr.io/bleumatin-fr/cooprog/server
+
+      - name: Restarting
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.PRODUCTION_SERVER_HOST }}
+          username: ${{ secrets.PRODUCTION_SERVER_USERNAME }}
+          key: ${{ secrets.PRODUCTION_SERVER_KEY }}
+          script: |
+            cd /cooprog &&
+            docker system prune -f &&
+            docker compose down &&
+            docker compose pull &&
+            docker compose up -d

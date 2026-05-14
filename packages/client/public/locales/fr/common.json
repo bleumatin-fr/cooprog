@@ -1,0 +1,773 @@
+{
+  "social": {
+    "title": "CooProg",
+    "description": "Coordinate artistic programming in the new climate regime"
+  },
+  "loading": "Chargement...",
+  "spectator": {
+    "tooltip-message": "Vous êtes en mode spectateur. Vous ne pouvez pas participer à CooProg"
+  },
+  "roles": {
+    "diffusion_structure": "structure de diffusion",
+    "artistic_team": "équipe artistique",
+    "spectator": "spectateur⸱ice",
+    "admin": "administrateur⸱ice"
+  },
+  "day": {
+    "0": "Dim",
+    "1": "Lun",
+    "2": "Mar",
+    "3": "Mer",
+    "4": "Jeu",
+    "5": "Ven",
+    "6": "Sam"
+  },
+  "months": {
+    "0": "Janvier",
+    "1": "Février",
+    "2": "Mars",
+    "3": "Avril",
+    "4": "Mai",
+    "5": "Juin",
+    "6": "Juillet",
+    "7": "Août",
+    "8": "Septembre",
+    "9": "Octobre",
+    "10": "Novembre",
+    "11": "Décembre"
+  },
+  "week": "Semaine",
+  "month": "Mois",
+  "home": "Tableau de bord",
+  "my_projects": "Mes projets",
+  "projects": "Projets",
+  "users": "Communauté",
+  "required-fields": "Les champs marqués d'une * sont obligatoires",
+  "structures": "Structures de diffusion",
+  "structures_name": "Structure de diffusion",
+  "diffusion_structure_name": "Structure de diffusion",
+  "artistic_team": "Équipes artistiques",
+  "artistic_team_name": "Équipe artistique",
+  "new-project": "Nouveau projet",
+  "new-project-artistic-team": "Nouvelle fiche spectacle",
+  "close-explanation": "Fermer l'explication",
+  "explanations": {
+    "share": {
+      "title": "Partager",
+      "explanation": "explication partage"
+    },
+    "program-status": {
+      "title": "Status d'un programme",
+      "explanation": "- option = \"vous envisagez des représentations mais rien n'est confirmé à ce stade\" ;\n- confirmé = \"les dates de diffusion - ou autre présence artistique - sont confirmées avec le producteur du spectacle\""
+    },
+    "favorite": {
+      "title": "Favoris",
+      "explanation": "Cette fonction vous permet de suivre un projet qui vous intéresse, avant, le cas échéant, de rejoindre la tournée. Vous pourrez suivre son évolution en sélectionnant vos projets \"favoris\" dans le filtre."
+    },
+    "hide": {
+      "title": "Cacher",
+      "explanation": "Cliquez ici pour faire disparaître un projet dont vous savez avec certitude qu'il ne vous intéresse pas. Vous pouvez toujours faire réapparaître ce projet avec la fonction \"rénitiliaser les projets cachés\""
+    },
+    "follow": {
+      "title": "Suivre",
+      "explanation": "Vous permet :\n\n1. de suivre de manière privilégiée l'activité de structures de diffusion avec lesquels vous avez des affinités particulières;\n2. de suivre l'activité de structures de diffusion qui se trouvent en dehors de votre rayon de visibilité. La fonction follow suppose dans ce cas un accord de la personne que vous demandez à suivre. Cet accord vous sera notifié"
+    },
+    "schedule": {
+      "title": "Calendrier des représentations  / présences artistiques prévues",
+      "explanation": "Les couleurs vous aident à distinguer les dates en option (bleu) et les dates confirmées (vert)."
+    }
+  },
+  "settings": "Paramètres",
+  "profile": "Mon compte",
+  "no-main-location-banner": {
+    "message": "Votre profil ne comporte pas d'adresse. CooProg sera personnalisée selon votre région géographique si vous en ajoutez une.",
+    "action": "Compléter mon profil"
+  },
+  "public-profile": "Voir le profil public",
+  "change-password": "Changer le mot de passe",
+  "sign-out": "Déconnexion",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "save": "Enregistrer les modifications",
+  "add": "Ajouter",
+  "required-field": "Champ obligatoire",
+  "reset-hidden": {
+    "title": "Réinitialiser les projets caché",
+    "description": "Cliquez ici pour faire réapparaître tous les projets que vous avez masqués (fonction \"Ne plus afficher\").",
+    "button": "Réinitialiser les projets cachés",
+    "success": "Vos projets cachés ont été réinitialisés."
+  },
+  "filters": {
+    "hide-map": "Cacher la carte",
+    "show-map": "Afficher la carte"
+  },
+  "sorted-by": "Trié par {{sort}}",
+  "invite": {
+    "invite-users": "Inviter d'autres utilisateur⸱ices",
+    "description": "Inviter des personnes de votre entourage professionnel à rejoindre les cooprogrammateur⸱ices",
+    "email": "Adresse e-mail",
+    "submit": "Envoyer l'invitation",
+    "success": "Votre invitation a été envoyée avec succès."
+  },
+  "cancel": "Annuler",
+  "close": "Fermer",
+  "errors": {
+    "404": {
+      "title": "Page introuvable",
+      "message": "La page que vous recherchez n'existe pas ou a été déplacée.",
+      "go-back": "Retour",
+      "redirecting": "Redirection vers la page d'accueil dans {{countdown}} secondes..."
+    },
+    "500": {
+      "title": "Erreur serveur",
+      "message": "Une erreur s'est produite de notre côté. Nous travaillons à résoudre ce problème.",
+      "try-again": "Réessayer",
+      "redirecting": "Redirection vers la page d'accueil dans {{countdown}} secondes..."
+    },
+    "generic": {
+      "go-home": "Aller à l'accueil",
+      "redirecting": "Redirection vers la page d'accueil dans {{countdown}} secondes...",
+      "title": "Erreur {{code}}",
+      "message": "Une erreur inattendue s'est produite. Veuillez réessayer plus tard.",
+      "try-again": "Réessayer"
+    }
+  },
+  "languages": {
+    "en": "🇬🇧 Anglais",
+    "fr": "🇫🇷 Français"
+  },
+  "breadcrumbs": {
+    "home": "Tableau de bord",
+    "projects": "Liste des projets",
+    "project": "{{title}}",
+    "tour": "{{title}}",
+    "users": {
+      "diffusion_structure": "Liste des structures de diffusion",
+      "artistic_team": "Liste des équipes artistiques"
+    },
+    "user": "{{name}}"
+  },
+  "legends": {
+    "project-cluster": "Groupe de projets",
+    "project-cluster-selected": "Groupe de projets sélectionné",
+    "user-cluster": "Groupe de structures de diffusion",
+    "pending-programmation": "Option",
+    "confirmed-programmation": "Confirmé",
+    "my-programmation": "Ma programmation",
+    "people-within": "Structures de diffusion",
+    "numbers": "Ordre dans lequel la tournée du projet se construit",
+    "projects-title": "Carte des tournées en cours de montage pour chaque projet",
+    "projects-title-explanation": "Cette carte situe les lieux de tournée intéressés par les projets que vous voyez sur la partie gauche de l'écran. \nSélectionnez un projet pour voir quelles structures souhaitent le programmer et où elles se situent.\nLes numéros indiquent l'ordre chronologique des programmations souhaitées.",
+    "users-title": "Carte des structures de diffusion de CooProg",
+    "users-title-explanation": "Cette carte situe les structures dont les programmateur⸱ices sont inscrit⸱es sur CooProg. \nSi vous cliquez sur un usager à gauche, vous pourrez le situer sur la carte à droite et réciproquement.",
+    "project-title": "Carte des tournées en cours de construction",
+    "tour-title": "Carte de la tournée en cours de construction"
+  },
+  "dialogs": {
+    "project-created-artistic-team": {
+      "title": "Votre fiche spectacle a été créée avec succès !",
+      "description": "### Merci d'avoir déposé votre spectacle sur CooProg !\nVous recevrez un mail dès qu'une structure de diffusion initiera un premier projet de tournée pour votre spectacle !\n\nPartagez votre fiche spectacle en cliquant sur le bouton *share* en haut à droite de la fiche.",
+      "submit": "Fermer"
+    },
+    "project-edit-project": {
+      "title": "Ajouter une équipe artistique au projet",
+      "description": "Ajoutez des équipes artistiques à votre projet pour les inviter à coordonner le projet.",
+      "field-label": "Rechercher une équipe artistique par nom ou email",
+      "field-placeholder": "Email, nom d'équipe",
+      "invite-text": "Cette équipe artistique n'est pas encore inscrite sur CooProg. Invitez-la à rejoindre le projet pour qu'elle puisse renseigner les informations qui la concernent et organiser au mieux la tournée.",
+      "role-label": "Rôle",
+      "cancel": "Annuler",
+      "submit": "Ajouter équipe artistique",
+      "message-label": "Message personnalisé",
+      "message-placeholder": "Écrivez votre message d'invitation personnalisé...",
+      "role-helper-text": {
+        "initiator": "Les initiateur⸱ices peuvent gérer le projet et inviter des personnes",
+        "venue": "Les lieux seront ajoutés comme initiateur⸱ice et peuvent gérer le projet et inviter des personnes",
+        "artistic_team": "Les équipes artistiques peuvent mettre à jour les informations du projet et inviter d'autres partenaires impliqués dans le projet."
+      }
+    },
+    "user-edition": {
+      "title": "Modifier l'utilisateur⸱ice",
+      "email": "Email",
+      "company": "Nom de la structure",
+      "companyDescription": "Description de la structure",
+      "companyDescriptionHelper": "Indiquez ici une description de la structure, qui sera affichée aux autres utilisateur⸱ices.",
+      "locations": "Lieux",
+      "add-location": "Ajouter un lieu",
+      "edit-location": "Modifier le lieu",
+      "location-label": "Libellé du lieu",
+      "location-label-placeholder": "Entrez un libellé court pour ce lieu (ex : Siège, Domicile, etc.)",
+      "location": "Lieu",
+      "location-placeholder": "Recherchez une ville, une région ou un pays",
+      "main-location": "Lieu principal",
+      "set-main-location": "Définir comme lieu principal",
+      "delete-location": "Supprimer le lieu",
+      "submit": "Modifier l'utilisateur⸱ice",
+      "avatar": "Avatar",
+      "avatarHelperText": "Personnalisez la photo de profil de votre compte, les autres utilisateur⸱ices verront cette photo lorsque vous participerez à un projet.",
+      "avatarButton": "Envoyer un avatar",
+      "success": "Votre utilisateur⸱ice a été modifié⸱e avec succès.",
+      "programmingDisciplines": "Disciplines",
+      "structureTypes": "Types de structures",
+      "programmingPeriods": "Périodes de programmation",
+      "programmingPeriodsHelper": "Renseignez un texte précisant les périodes durant lesquelles vous programmez (ex: septembre à juin, toute l'année, festival de printemps...)",
+      "genres": "Genres",
+      "addresses": "Adresses",
+      "add-address": "Ajouter une adresse",
+      "edit-address": "Modifier l'adresse",
+      "address-label": "Libellé de l'adresse",
+      "address": "Adresse",
+      "main-address": "Adresse principale",
+      "set-main-address": "Définir comme adresse principale",
+      "delete-address": "Supprimer l'adresse"
+    },
+    "profile-edition": {
+      "title": "Modifier le profil",
+      "firstName": "Prénom (public)",
+      "lastName": "Nom (public)",
+      "role": "Rôle / Poste dans la structure (public)",
+      "contactHelper": "Les cooprogrammateur⸱ices essaieront de vous contacter pour les projets qui les intéressent",
+      "contactMode": "Mode de contact préféré (public)",
+      "contactModeValuePhone": "Téléphone",
+      "contactModeValueEmail": "Email",
+      "contactValuePhone": "Numéro de téléphone de contact (public)",
+      "contactValueEmail": "Email de contact (public)",
+      "contactInstructions": "Message pour les personnes qui essaient de vous contacter (public)",
+      "submit": "Modifier le profil",
+      "delete": "Supprimer le profil",
+      "deleteConfirmationTitle": "Supprimer le profil",
+      "deleteConfirmationMessage": "Êtes-vous sûr de vouloir supprimer ce profil ? Cette action est irréversible."
+    },
+    "profile-creation": {
+      "title": "Créer un nouveau profil",
+      "firstName": "Prénom (public)",
+      "lastName": "Nom (public)",
+      "role": "Rôle / Poste dans la structure (public)",
+      "contactHelper": "Les cooprogrammateur⸱ices essaieront de vous contacter pour les projets qui les intéressent",
+      "contactMode": "Mode de contact préféré (public)",
+      "contactModeValuePhone": "Téléphone",
+      "contactModeValueEmail": "Email",
+      "contactValuePhone": "Numéro de téléphone de contact (public)",
+      "contactValueEmail": "Email de contact (public)",
+      "contactInstructions": "Message pour les personnes qui essaient de vous contacter (public)",
+      "submit": "Créer le profil"
+    },
+    "profile-selection": {
+      "introduction": "Vous êtes connecté⸱e avec la structure...",
+      "title": "Sélectionnez un profil utilisateur⸱ice",
+      "helperText": "CooProg permet de gérer plusieurs profils pour un seul utilisateur⸱ice. Vous pouvez basculer entre les profils à tout moment.",
+      "createNew": "Créer un nouveau profil",
+      "editProfile": "Modifier le profil",
+      "selectProfile": "Sélectionner ce profil",
+      "editUser": "Modifier la structure",
+      "maxProfilesReached": "Vous avez atteint le nombre maximum de profils, veuillez en supprimer un avant de créer un nouveau."
+    },
+    "new-version": {
+      "version": "2.1",
+      "title": "CooProg évolue !",
+      "content": "Le planning de tournée est désormais structuré en périodes distinctes, regroupées sous une même fiche pour chaque spectacle. Ce planning permet d'indiquer les dates de représentation pour chaque période, qu'elles soient en option ou confirmées.",
+      "do-not-remind-me": "Ne plus me le rappeler",
+      "submit": "J'ai compris"
+    },
+    "discipline-selection": {
+      "title": "Nouvelle version de CooProg",
+      "content": "CooProg s'ouvre aux Musiques actuelles, vous pouvez choisir les disciplines que vous souhaitez programmer dans votre structure de diffusion.\n\nNe vous inquiétez pas, vous pourrez à nouveau modifier cette information dans votre profil.",
+      "spectacle-vivant": "Spectacle vivant",
+      "musiques-actuelles": "Musiques actuelles"
+    },
+    "add-participants-tour": {
+      "title": "Ajouter des participants à la tournée",
+      "description": "Ajoutez des structures de diffusion à cette tournée pour les inviter à participer.",
+      "field-label": "Rechercher une structure de diffusion par nom ou email",
+      "field-placeholder": "Email, name",
+      "invite-text": "Cette personne n'est pas encore inscrite sur CooProg. Invitez-la à rejoindre le projet pour qu'elle puisse renseigner les informations qui la concernent et organiser au mieux la tournée.",
+      "role-label": "Role",
+      "message-label": "Message personnalisé",
+      "message-placeholder": "Écrivez un message d'invitation personnalisé...",
+      "cancel": "Annuler",
+      "submit": "Ajouter participant",
+      "role-helper-text": {
+        "venue": "Seules les structures de diffusion peuvent être ajoutées à une tournée",
+        "programmer": "Les partenaires peuvent définir les dates pour leur propre lieu et définir des jours bloqués",
+        "pilot": "Les pilotes peuvent gérer complètement le planning de la tournée et inviter des personnes"
+      }
+    },
+    "add-participants-project": {
+      "title": "Ajouter des participants à la tournée",
+      "description": "Ajoutez des structures de diffusion ou des équipes artistiques à votre projet pour qu'elles vous aident à l'administrer.",
+      "field-label": "Rechercher une structure de diffusion ou une équipe artistique par nom ou email",
+      "field-placeholder": "Email, name",
+      "invite-text": "Cette personne n'est pas encore inscrite sur CooProg. Invitez-la à rejoindre le projet pour qu'elle puisse renseigner les informations qui la concernent et organiser au mieux la tournée.",
+      "role-label": "Role",
+      "message-label": "Message personnalisé",
+      "message-placeholder": "Écrivez un message d'invitation personnalisé...",
+      "cancel": "Annuler",
+      "submit": "Ajouter participant",
+      "role-helper-text": {
+        "initiator": "Les initiateur⸱ices peuvent gérer le projet et inviter des personnes",
+        "venue": "Les lieux seront ajoutés comme initiateur⸱ice et peuvent gérer le projet et inviter des personnes",
+        "artistic_team": "Les équipes artistiques peuvent mettre à jour les informations du projet et inviter d'autres partenaires impliqués dans le projet."
+      }
+    },
+    "coordinators-project": {
+      "title": "Ajouter des coordinators au projet",
+      "description": "Ajoutez des structures de diffusion ou des équipes artistiques à votre projet pour qu'elles vous aident à l'administrer.",
+      "field-label": "Rechercher une structure de diffusion ou une équipe artistique par nom ou email",
+      "field-placeholder": "Email, name",
+      "invite-text": "Cette personne n'est pas encore inscrite sur CooProg. Invitez-la à rejoindre le projet pour qu'elle puisse renseigner les informations qui la concernent et organiser au mieux la tournée.",
+      "role-label": "Role",
+      "cancel": "Annuler",
+      "submit": "Ajouter coordinateur",
+      "role-helper-text": {
+        "initiator": "Les initiateur⸱ices peuvent gérer le projet et inviter des personnes",
+        "venue": "Les lieux seront ajoutés comme initiateur⸱ice et peuvent gérer le projet et inviter des personnes",
+        "artistic_team": "Les équipes artistiques peuvent mettre à jour les informations du projet et inviter d'autres partenaires impliqués dans le projet."
+      }
+    },
+    "create-tour": {
+      "title": "Partager une nouvelle tournée pour \"{{project}}\"",
+      "submit": "Partager la tournée"
+    },
+    "invite-people": {
+      "title": "Inviter des structures de diffusion à rejoindre CooProg",
+      "field-label": "Invitez des personnes par leur adresse e-mail pour qu'elles inscrivent leur structure",
+      "field-placeholder": "Entrez une adresse e-mail",
+      "field-tooltip-valid": "Cliquez ici pour ajouter cette adresse e-mail comme destinataire",
+      "field-tooltip-invalid": "Cette adresse e-mail n'est pas valide",
+      "error-email-invalid-format": "Format d'adresse e-mail invalide.",
+      "recipients": "Destinataires",
+      "tooltip": "Inviter des structures de diffusion à rejoindre CooProg",
+      "submit_zero": "Ajouter une personne à inviter",
+      "submit_one": "Inviter cette personne",
+      "submit_other": "Inviter ces {{count}} personnes",
+      "error": "Quelque chose s'est mal passé. Veuillez réessayer plus tard.",
+      "success": "Votre invitation a été envoyée avec succès.",
+      "missing-link": "Veuillez inclure un lien d'invitation dans votre message",
+      "customize-message": "Personnaliser le message d'invitation",
+      "message-label": "Message personnalisé",
+      "message-placeholder": "Écrivez votre message d'invitation personnalisé...",
+      "message-helper": "Vous pouvez personnaliser le message d'invitation ou utiliser le modèle par défaut ci-dessous."
+    },
+    "contact": {
+      "title": "Besoin d'aide?",
+      "text": "Pour la moindre question ou suggestion concernant CooProg, n'hésitez pas : **contactez-nous !** Nous vous répondrons\ndans les plus brefs, et néanmoins raisonnables, délais.\n\nPour que nous puissions vous aider au mieux, merci de mentionner le nom de votre structure et celui de votre projet, et d'indiquer précisément la page concernée par votre demande.",
+      "subject": "Objet",
+      "message": "Message",
+      "submit": "Envoyer",
+      "success": "Votre message a été envoyé avec succès."
+    },
+    "password-change": {
+      "title": "Changer le mot de passe",
+      "current-password": "Mot de passe actuel",
+      "new-password": "Nouveau mot de passe",
+      "confirm-password": "Confirmer le mot de passe",
+      "submit": "Changer le mot de passe",
+      "success": "Votre mot de passe a été modifié avec succès."
+    },
+    "project-edit": {
+      "submit": "Enregistrer les modifications"
+    },
+    "new-project": {
+      "title": "Partager un nouveau projet",
+      "title-artistic-team": "Partager une nouvelle fiche spectacle",
+      "subtitles": {
+        "generalInformations": "Informations générales",
+        "representationConditions": "Conditions de représentation",
+        "budget": "Budget",
+        "artisticTeam": "Équipe artistique",
+        "ressources": "Ressources"
+      },
+      "genderDistribution": {
+        "label": "Répartition de genre sur scène",
+        "man": "homme",
+        "men": "hommes",
+        "woman": "femme",
+        "women": "femmes",
+        "nonBinaryPerson": "personne non-binaire",
+        "nonBinaryPeople": "personnes non-binaires"
+      },
+      "numberOfMenOnStage": {
+        "label": "Hommes"
+      },
+      "numberOfWomenOnStage": {
+        "label": "Femmes"
+      },
+      "numberOfNonBinaryOnStage": {
+        "label": "Non-binaires"
+      },
+      "culturalActionInterest": {
+        "label": "Les artistes sont intéressés par des actions culturelles (masterclasses, médiation, etc.)"
+      },
+      "emergingArtist": {
+        "label": "Artiste émergent"
+      },
+      "steps": {
+        "project-information": "Information du projet",
+        "tour-information": "Planning de tournée",
+        "share": "Partage"
+      },
+      "artist": {
+        "label": "Artiste"
+      },
+      "work": {
+        "label": "Work"
+      },
+      "description": {
+        "label": "Encouragement"
+      },
+      "places": {
+        "label": "Lieu d'implantation de l'équipe artistique (plusieurs choix possibles)"
+      },
+      "gauge": {
+        "label": "Jauge (plusieurs choix possibles)"
+      },
+      "minimumStageSize": {
+        "label": "Tailles possibles de plateau (plusieurs choix possibles)"
+      },
+      "averagePerformanceFee": {
+        "label": "Coût de cession moyen par représentation - hors coûts de transport (plusieurs choix possibles)",
+        "disabled": "Seules les équipes artistiques peuvent définir le coût de cession moyen par représentation"
+      },
+      "venueConfigurationType": {
+        "label": "Configuration du spectacle (plusieurs choix possibles)"
+      },
+      "venueConfigurationSpace": {
+        "label": "Type d'espace (plusieurs choix possibles)"
+      },
+      "venueConfigurationAudience": {
+        "label": "Configuration du public (plusieurs choix possibles)"
+      },
+      "performanceLanguages": {
+        "label": "Langues du spectacle (plusieurs choix possibles)",
+        "accessibility-label": "Accessibilité",
+        "accessibility-visual": "Ce spectacle est accessible aux personnes porteuses d’un handicap visuel.",
+        "accessibility-audio": "Ce spectacle est accessible aux personnes porteuses d’un handicap auditif."
+      },
+      "numberOfPeople": {
+        "label": "Nombre de personnes"
+      },
+      "numberOfArtistOnStage": {
+        "label": "Au plateau"
+      },
+      "numberOfPeopleOnTour": {
+        "label": "En tournée"
+      },
+      "financialSupport": {
+        "label": "Soutien financier possible",
+        "placeholder": "Précisez si un soutien financier est envisageable (montant, type, conditions)"
+      },
+      "project-information": {
+        "description": "### Partagez l'essentiel sur le spectacle !\nPour aider les autres structures de diffusion à se projeter dans le projet de tournée, partagez quelques informations clés : contenu du spectacle, conditions de présentation, budget et contacts de l'équipe artistique. Ces éléments essentiels donneront à votre projet de la visibilité et faciliteront son identification par d'autres partenaires potentiels.\n\nEntrez les informations que vous connaissez pour votre projet. Vous pouvez inviter l'équipe artistique à rejoindre le projet pour qu'elle puisse renseigner les informations qui la concernent et organiser au mieux la tournée.\n\n\n\n**Ces informations seront visibles par tous.**",
+        "description-artistic-team": "### Vérifiez si votre spectacle existe déjà sur CooProg !\nTapez les premières lettres du titre de votre spectacle. S'il existe déjà, il apparaîtra automatiquement sous le champ de saisie.\n\n### Vous souhaitez partager un nouveau spectacle ?\nComplétez le formulaire ci-dessous en renseignant les informations clés. Ces informations permettront à votre projet de gagner en visibilité et faciliteront son identification par les structures de diffusion.",
+        "representationConditionsHelper": "Indiquez les conditions de représentation du spectacle. N'hésitez pas à être exhaustif, plus vous renseignez d'informations, plus votre projet sera visible et trouvable par les autres usagers.",
+        "artist": "Artiste",
+        "complementaryGenre": "Genre complémentaire",
+        "complementaryGenreHelper": "Utilisez ce champ pour spécifier des informations supplémentaires sur le genre si nécessaire",
+        "discipline": "Veuillez sélectionner une discipline",
+        "titleOfWork": "Titre de l'œuvre",
+        "places": "Villes d'implantation",
+        "places-explanation": "Entrez la ville où l'équipe artistique est implantée.",
+        "genre": "Genres (plusieurs choix possibles)",
+        "target-audience": "Publics cibles (plusieurs choix possibles)",
+        "targetAudience": "Publics cibles (plusieurs choix possibles)",
+        "status": "Statut",
+        "status-pending": "En attente",
+        "status-confirmed": "Confirmé",
+        "dates": "Veuillez sélectionner les dates approximatives de votre projet",
+        "description-label": "Indiquez ici toute information qui vous semblerait utile pour convaincre des partenaires de se joindre à vous pour organiser une tournée",
+        "description-placeholder": "- votre motivation, \n- la proposition artistique,\n- particularités techniques et artistiques...",
+        "description-helper": "Le texte de ce champ n'est pas traduit automatiquement. Si vous visez une coopération internationale, n'hésitez pas à inclure une traduction en anglais de votre description.",
+        "need-discipline-helpers": "Veuillez d'abord sélectionner une discipline avant d'ajouter des artistes à l'équipe.",
+        "artistic-team": "Équipe artistique",
+        "artistic-team-description": "Invitez l'équipe artistique à rejoindre le projet pour qu'elle puisse renseigner les informations qui la concernent et organiser au mieux la tournée.",
+        "artistic-team-field-label": "Recherchez une équipe artistique par son nom ou email",
+        "artistic-team-field-placeholder": "Email, nom d'équipe",
+        "artistic-team-invite-text": "Cette équipe artistique n'est pas encore inscrite sur CooProg. Invitez-la à rejoindre le projet pour qu'elle puisse renseigner les informations qui la concernent et organiser au mieux la tournée.",
+        "calendar": {
+          "empty-label": "Comment bien démarrer?",
+          "empty": "Si vous proposez ou rejoignez un projet sur CooProg, c'est dans l'objectif premier de réduire l'impact écologique des mobilités artistiques. Avec les autres usagers intéressés et le producteur vous rechercherez un optimum de circulation permettant :\n\n1. de réduire au maximum les trajets entre chaque représentation \n2. d'éviter les aller-retours entre le domicile des équipes artistiques et les lieux de tournée. \n\n----\n\nSi vous souhaitez proposer un projet en coopération :\n\n1. recherchez le projet sur la platefome, pour vérifier qu'il n'y est pas déjà présent. S'il est présent, joignez-vous à ce projet plutôt que d'en créer un nouveau ;\n2. Entrez votre projet ici pour que les usagers inscrits soient informés de votre intention - n'hésitez pas à indiquer la souplesse que vous avez vous-même par rapport aux dates indiquées afin de faciliter le positionnement d'autres usagers; \n3. Votre projet est maintenant visible par la communauté !\n4. Attirez l'attention de vos contacts favoris en leur signalant votre intention. \n5. Vous recevrez des notifications quand d'aures usagers se positionneront sur votre projet.\n6. Une fois d'autres usagers positionnés sur la tournée, contactez les, ainsi que le producteur du spectacle, afin de travailler ensemble à l'optimum de circulation défini plus haut; \n7.N'oubliez pas de mettre à jour le calendrier de votre projet sur base de ces échanges, afin que d'autres puissent vous rejoindre ensuite."
+        },
+        "similarity-description": "{{count}} projet(s) avec les mêmes artiste et oeuvre ont déjà été créés sur Cooprog. Regardez et si l'un correspond à votre besoin, rejoignez-le !",
+        "button": "Voir les {{count}} projets"
+      },
+      "tour-information": {
+        "description": "**Organisons la tournée !**\n\n**Créez une tournée pour chaque période envisagée autour de vos dates de représentation.** Indiquez pour chacune les dates estimées de début et de fin (mois et année), un libellé et quelques étapes clés.\n\nCes informations permettront aux autres partenaires, qu'ils soient membres de Cooprog ou non, de mieux se coordonner et d'enrichir le projet de tournée. **Une bonne planification, c'est la clé d'une coopération réussie !**\n\n**Si vous travaillez sur deux périodes distinctes** (ex. automne et printemps, ou octobre année N et avril année N+1), pensez à créer **deux tournées séparées**.",
+        "name": "Nom de la tournée",
+        "name-helper": "Donnez un nom à votre tournée, par exemple : \"Printemps 2026 - Itinérance Creuse\", \"Octobre 2027 - Tournée Bretagne\".\n\nNe vous inquiétez pas, vous pourrez modifier le nom de la tournée par la suite, ou laisser l'équipe artistique le faire.",
+        "dates-explanation": " Indiquez le mois et l'année approximative de la tournée que vous êtes en train de créer.",
+        "logistic": "Logistique",
+        "logistics-artistic-team": "Équipe artistique",
+        "logistics-decorations": "Décors et matériel technique",
+        "logistic-explanation": "Ces informations de logistique sont utilisées pour calculer la réduction d'impact carbone qu'engendre la coprogrammation.\nOn peut ainsi estimer les distances parcourues et en déduire l'empreinte carbone des transports de personnes et de matériaux.",
+        "decorations-help": "### Aide\n#### Repères de volume\n:pickup_truck: 3 m³ ≈ petit utilitaire\n:minibus: 6 m³ ≈ camionnette moyenne\n:articulated_lorry: 12 m³ ≈ grand fourgon\n:truck: 20 m³ ≈ camion 20 m³\n:ship: 80 m³ ≈ semi-remorque\n\n#### Repères de poids\n:performing_arts: Décors légers : 150 à 300 kg / m³\n:loud_sound: Matériel technique : 300 à 500 kg / m³\n:wood: Décors lourds : 500 à 800 kg / m³",
+        "artistic-team-localization": "Localisation de l'équipe artistique",
+        "artistic-team-localization-helper": "Renseignez ici la localisation vous semblant la plus pertinente pour la construction d'une tournée : lieu de départ de l'équipe artistique, lieu de résidence de la majorité de l'équipe artistique, lieu de départ principal, point central, etc...",
+        "people-transport": "Mode de transport principal de l'équipe",
+        "people-transport-helper": "Le moyen de transport principal est utilisé pour connaître les emissions carbone par kilomètre. Si plusieurs moyens de transport sont utilisés, renseignez celui qui vous parait le plus représentatif de l'impact de votre tournée.",
+        "people-transport-mode": {
+          "0": {
+            "label": "Train",
+            "icon": "🚂",
+            "emissionFactor": 0.006,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Train grandes lignes 2019 (28144)",
+              "link": "https://data.ademe.fr/datasets/base-carboner"
+            }
+          },
+          "1": {
+            "label": "Voiture",
+            "icon": "🚗",
+            "emissionFactor": 0.16,
+            "unit": "kgCO₂e/passager.km",
+            "default": true,
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Voiture moyenne Mixte 2023 (43809)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "2": {
+            "label": "Moto",
+            "icon": "🏍️",
+            "emissionFactor": 0.217,
+            "unit": "kgCO₂e/km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Moto > 250cm3 Mixte 2023 (43782)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "3": {
+            "label": "Avion",
+            "icon": "✈️",
+            "emissionFactor": 0.169,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Avion passagers >220 sièges, 2000-5000 kms AVEC trainées 2023 (43772)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "4": {
+            "label": "Camion",
+            "icon": "🚚",
+            "emissionFactor": 0.169,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Camion rigide 12 à 20 tonnes Diesel routier 2023 (43716)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "5": {
+            "label": "Bus",
+            "icon": "🚌",
+            "emissionFactor": 0.122,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Autobus Gazole 2023 (43739)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "6": {
+            "label": "Tourbus",
+            "icon": "🚌",
+            "emissionFactor": 0.122,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Autobus Gazole 2023 (43739)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "7": {
+            "label": "Vélo",
+            "icon": "🚲",
+            "emissionFactor": 0.00017,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Impact CO2 - Vélo mécanique",
+              "link": "https://impactco2.fr/outils/transport/velo"
+            }
+          },
+          "8": {
+            "label": "Bateau",
+            "icon": "⛴️",
+            "emissionFactor": 0.384,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Navette inter-îles 2023 (28249)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "9": {
+            "label": "Voilier",
+            "icon": "⛵",
+            "emissionFactor": 0.0,
+            "unit": "kgCO₂e/passager.km"
+          }
+        },
+        "decorations-transport": "Mode de transport principal des décors et matériel technique",
+        "decorations-transport-helper": "Si les décors ou le matériel technique sont transportés par un autre moyen, renseignez-le ici",
+        "decorations-transport-mode": {
+          "0": {
+            "label": "Train",
+            "icon": "🚂",
+            "emissionFactor": 0.01,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Train motorisation moyenne chargement moyen 2025 (43728)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "1": {
+            "label": "Voiture",
+            "icon": "🚗",
+            "emissionFactor": 0.842,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - VUL < 3,5 tonnes Diesel 2025 (43735)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "2": {
+            "label": "Moto",
+            "icon": "🏍️",
+            "emissionFactor": 0.217,
+            "unit": "kgCO₂e/km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Moto > 250cm3 Mixte 2023 (43782)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "3": {
+            "label": "Avion",
+            "icon": "✈️",
+            "emissionFactor": 1.22,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Avion cargo, Plus de 100 tonnes, 2000-5000 kms AVEC trainées 2023 (43662)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "4": {
+            "label": "Camion",
+            "icon": "🚚",
+            "emissionFactor": 0.169,
+            "unit": "kgCO₂e/t.km",
+            "default": true,
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Camion rigide 12 à 20 tonnes Diesel routier 2025 (43716)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "5": {
+            "label": "Bus",
+            "icon": "🚌",
+            "emissionFactor": 0.169,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Camion rigide 12 à 20 tonnes Diesel routier 2025 (43716)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "6": {
+            "label": "Bateau",
+            "icon": "⛴️",
+            "emissionFactor": 0.013,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Cargo 10 000 à 20 000 tonnes 2020 (28241)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "7": {
+            "label": "Voilier",
+            "icon": "⛵",
+            "emissionFactor": 0.0,
+            "unit": "kgCO₂e/t.km"
+          }
+        },
+        "decorationsWeight": "Poids des décors et matériel technique",
+        "planning": "Planning",
+        "month": "Mois",
+        "locations-explanation": "Indiquez le lieu où vous programmez ce projet.\n\n*Si vous programmez en dehors de votre lieu habituel, changez la localisation ci-dessous.* *Si vous programmez dans votre lieu habituel, laissez la localisation par défaut.*",
+        "year": "Année",
+        "planning-explanation": "Indiquez au moins une date de représentation, confirmée ou en option.",
+        "start": "Date de début",
+        "end": "Date de fin",
+        "dates": "Dates",
+        "planning-overlay": {
+          "title": "Veuillez sélectionner un mois et une année",
+          "description": "Le planning sera disponible une fois que vous aurez sélectionné la période de cette tournée"
+        }
+      },
+      "visibility": {
+        "description": "Vous êtes en mode de visibilité {{mode}} : vous êtes sur le point de partager ce projet avec {{count}} personnes",
+        "show-all": "Afficher tous",
+        "table-header": {
+          "firstName": "Prénom",
+          "lastName": "Nom de famille",
+          "company": "Structure",
+          "city": "Ville",
+          "distance": "Distance"
+        },
+        "incentive": "Passez en visibilité ouverte et **partagez votre projet avec {{count}} personnes supplémentaires**"
+      },
+      "share": {
+        "description": "**Vous pouvez optionnellement partager votre projet de programmation avec d'autres structures de diffusion !** C'est la première étape pour le faire connaître !\n\nVous pourrez partager votre projet plus tard, si vous le souhaitez.",
+        "message-label": "Message personnalisé",
+        "message-placeholder": "Écrivez votre message de partage personnalisé..."
+      },
+      "submit": "Créer la fiche spectacle"
+    },
+    "profile": {
+      "title": "Profil utilisateur⸱ice",
+      "tabs": {
+        "general-information": "Informations générales",
+        "address": "Adresses",
+        "visibility": "Visibilité",
+        "contact-information": "Informations de contact",
+        "other": "Autres",
+        "discipline": "Informations de structure"
+      },
+      "success": "Votre profil a été mis à jour avec succès."
+    },
+    "update-tour": {
+      "no-changes": "Vous n'avez modifié aucune des informations de la tournée"
+    },
+    "update-project": {
+      "no-changes": "Vous n'avez modifié aucune des informations du projet"
+    }
+  },
+  "validation": {
+    "required": "Ce champ est requis",
+    "tourNameRequired": "Le nom de la tournée est obligatoire",
+    "monthRequired": "Le mois est obligatoire",
+    "yearRequired": "L'année est obligatoire",
+    "atLeastOneDateRequired": "Au moins une date doit être programmée",
+    "allDatesMustBeInFuture": "Toutes les dates doivent être dans le futur"
+  },
+  "tour": {
+    "prefix": "Tournée"
+  },
+  "richtext-editor": {
+    "text-formatting-tooltip": "Formatage du texte",
+    "bold-tooltip": "Gras",
+    "italic-tooltip": "Italique",
+    "underline-tooltip": "Souligné",
+    "strikethrough-tooltip": "Barré",
+    "align-left-tooltip": "Aligner à gauche",
+    "align-center-tooltip": "Centrer",
+    "align-right-tooltip": "Aligner à droite",
+    "justify-tooltip": "Justifier",
+    "list-formatting-tooltip": "Formatage des listes",
+    "bullet-list-tooltip": "Liste à puces",
+    "numbered-list-tooltip": "Liste numérotée",
+    "insert-link-placeholder-tooltip": "Insérer le lien d'invitation",
+    "insert-link-placeholder": "Insérer le lien d'invitation",
+    "private-invitation-link": "Lien d'invitation privé",
+    "share-project-link": "Lien pour rejoindre le projet",
+    "insert-share-project-link-placeholder": "Insérer le lien pour rejoindre le projet",
+    "insert-share-project-link-placeholder-tooltip": "Insérer le lien pour rejoindre le projet",
+    "invite-link": "Lien d'invitation",
+    "insert-invite-link-placeholder": "Insérer le lien d'invitation",
+    "insert-invite-link-placeholder-tooltip": "Insérer le lien d'invitation"
+  }
+}

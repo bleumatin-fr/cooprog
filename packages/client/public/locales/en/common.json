@@ -1,0 +1,769 @@
+{
+  "social": {
+    "title": "CooProg",
+    "description": "Coordonner la programmation artistique dans le nouveau régime climatique"
+  },
+  "loading": "Loading...",
+  "spectator": {
+    "tooltip-message": "Your account is in spectator mode and you can't participate to CooProg"
+  },
+  "roles": {
+    "diffusion_structure": "venue",
+    "artistic_team": "artistic team",
+    "spectator": "spectator",
+    "admin": "administrator"
+  },
+  "day": {
+    "0": "Sun.",
+    "1": "Mon.",
+    "2": "Tue.",
+    "3": "Wed.",
+    "4": "Thu.",
+    "5": "Fri.",
+    "6": "Sat."
+  },
+  "months": {
+    "0": "January",
+    "1": "February",
+    "2": "March",
+    "3": "April",
+    "4": "May",
+    "5": "June",
+    "6": "July",
+    "7": "August",
+    "8": "September",
+    "9": "October",
+    "10": "November",
+    "11": "December"
+  },
+  "week": "Week",
+  "month": "Month",
+  "home": "Dashboard",
+  "my_projects": "My projects",
+  "projects": "Projects",
+  "users": "Community",
+  "required-fields": "Fields marked with * are required",
+  "structures": "Venues",
+  "structures_name": "Venue",
+  "diffusion_structure_name": "Venue",
+  "artistic_team": "Artistic teams",
+  "artistic_team_name": "Artistic team",
+  "new-project": "New project",
+  "new-project-artistic-team": "New show listing",
+  "close-explanation": "Close explanation",
+  "explanations": {
+    "share": {
+      "title": "Share",
+      "explanation": "share explanation"
+    },
+    "program-status": {
+      "title": "Program status",
+      "explanation": "- option = \"you are planning performances but nothing is confirmed at this stage\";\n- confirmed = \"the dates of the perfromances - or other artistic presence - have been confirmed with the show's producer\"."
+    },
+    "favorite": {
+      "title": "Favorite",
+      "explanation": "This function allows you to follow a project that interests you before joining the tour. You can follow its progress by selecting your \"favourite\" projects in the filter."
+    },
+    "hide": {
+      "title": "Hide",
+      "explanation": "Click here to make a project disappear that is definitely not of interest for you. To make this project reappear, use the \"re-initialise hidden projects\" function."
+    },
+    "follow": {
+      "title": "Follow",
+      "explanation": "Allows you to:\n\n1. follow the activity of colleagues with whom you have a particular affinity;\n2. follow the activity of colleagues who are outside your area of visibility. In this case, the follow function requires the agreement of the person you are asking to follow. You will be notified of this agreement"
+    },
+    "schedule": {
+      "title": "Calendar of scheduled performances and artistic appearances",
+      "explanation": "The colours help you to distinguish between optional dates (blue) and confirmed dates (green)."
+    }
+  },
+  "settings": "Settings",
+  "profile": "My account",
+  "no-main-location-banner": {
+    "message": "Your profile is missing an address. CooProg will be personalized according to your geographical region if you add one.",
+    "action": "Complete my profile"
+  },
+  "public-profile": "See public profile",
+  "change-password": "Change password",
+  "sign-out": "Sign out",
+  "previous": "Previous",
+  "next": "Next",
+  "save": "Save changes",
+  "add": "Add",
+  "required-field": "Required field",
+  "reset-hidden": {
+    "title": "Reset hidden projects",
+    "description": "Click here to make all the projects you have hidden (\"Do not show again\" function) reappear.",
+    "button": "Reset hidden projects",
+    "success": "Your hidden projects have been resetted."
+  },
+  "filters": {
+    "hide-map": "Hide map",
+    "show-map": "Show map"
+  },
+  "sorted-by": "Sorted by {{sort}}",
+  "invite": {
+    "invite-users": "Inviter d'autres utilisateurs",
+    "description": "Inviter des personnes de votre entourage professionnel à rejoindre les cooprogrammateur⸱rice.s",
+    "email": "Adresse e-mail",
+    "submit": "Envoyer l'invitation",
+    "success": "Votre invitation a été envoyée avec succès."
+  },
+  "cancel": "Cancel",
+  "close": "Close",
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "message": "The page you're looking for doesn't exist or has been moved.",
+      "go-back": "Go Back",
+      "redirecting": "Redirecting to home page in {{countdown}} seconds..."
+    },
+    "500": {
+      "title": "Server Error",
+      "message": "Something went wrong on our end. We're working to fix this issue.",
+      "try-again": "Try Again",
+      "redirecting": "Redirecting to home page in {{countdown}} seconds..."
+    },
+    "generic": {
+      "go-home": "Go to Home",
+      "redirecting": "Redirecting to home page in {{countdown}} seconds...",
+      "title": "Error {{code}}",
+      "message": "An unexpected error occurred. Please try again later.",
+      "try-again": "Try Again"
+    }
+  },
+  "languages": {
+    "en": "🇬🇧 English",
+    "fr": "🇫🇷 French",
+    "en_short": "GB",
+    "fr_short": "FR"
+  },
+  "breadcrumbs": {
+    "home": "Dashboard",
+    "projects": "List of projects",
+    "project": "{{title}}",
+    "tour": "{{title}}",
+    "users": {
+      "diffusion_structure": "List of venues",
+      "artistic_team": "List of artistic teams"
+    },
+    "user": "{{name}}"
+  },
+  "legends": {
+    "project-cluster": "Group of projects",
+    "project-cluster-selected": "Selected group of projects",
+    "user-cluster": "Group of vanues",
+    "pending-programmation": "Pending programmation",
+    "confirmed-programmation": "Confirmed programmation",
+    "my-programmation": "My programmation",
+    "people-within": "Venues",
+    "numbers": "Order in which the project tour is organised",
+    "projects-title": "Tour map being prepared for each project",
+    "projects-title-explanation": "This map shows the touring venues interested in the projects you see on the left of the screen.\n    Select a project to see which structures are interested in programming it and where they are located.\n    The numbers indicate the chronological order of the desired programming.",
+    "users-title": "Map of CooProg venues",
+    "users-title-explanation": "This map shows the structures whose programmers are registered with CooProg. \nIf you click on a user on the left, you can locate them on the map on the right and vice versa.",
+    "project-title": "Map of the tours under construction",
+    "tour-title": "Map of the tour under construction"
+  },
+  "dialogs": {
+    "project-created-artistic-team": {
+      "title": "Your show has been created successfully!",
+      "description": "### Thank you for submitting your show on CooProg!\nYou will receive an email as soon as a diffusion structure initiates a first tour project for your show!\n\nShare your show by clicking the *share* button in the top right of the card.",
+      "submit": "Close"
+    },
+    "project-edit-project": {
+      "title": "Add artistic team to the project",
+      "description": "Add artistic teams to invite them to coordinate the project.",
+      "field-label": "Search for an artistic team by name or email",
+      "field-placeholder": "Email, name",
+      "invite-text": "This artistic team doesn't seem to be registered on CooProg yet. Would you like to invite them to join the platform?",
+      "role-label": "Role",
+      "cancel": "Cancel",
+      "submit": "Add artistic team",
+      "message-label": "Custom message",
+      "message-placeholder": "Write your custom invitation message...",
+      "roleHelperText": {
+        "initiator": "Project initiators can administrate the project and invite people",
+        "venue": "Venues will be added as project initiator and can administrate the project and invite people",
+        "artistic_team": "Artistic team can update information about the project and invite other partners involved in the project."
+      }
+    },
+    "user-edition": {
+      "title": "Edit user",
+      "email": "Email",
+      "company": "Structure name",
+      "companyDescription": "Structure description",
+      "companyDescriptionHelper": "Indicate here a description of the structure, which will be displayed to other users.",
+      "locations": "Locations",
+      "add-location": "Add location",
+      "edit-location": "Edit location",
+      "location-label": "Location label",
+      "location-label-placeholder": "Enter a short label for this location (e.g. Main office, Home, etc.)",
+      "location": "Location",
+      "location-placeholder": "Search for a city, region, or country",
+      "main-location": "Main location",
+      "set-main-location": "Set as main location",
+      "delete-location": "Delete location",
+      "submit": "Edit user",
+      "avatar": "Avatar",
+      "avatarHelperText": "Customize the profile picture of your account, other users will see it when you participate in a project.",
+      "avatarButton": "Upload avatar",
+      "success": "Your user has been updated successfully.",
+      "programmingDisciplines": "Disciplines",
+      "structureTypes": "Structure types",
+      "programmingPeriods": "Programming periods",
+      "programmingPeriodsHelper": "Fill a text specifying the periods during which you program (e.g., September to June, year-round, spring festival...)",
+      "genres": "Genres",
+      "addresses": "Addresses",
+      "add-address": "Add address",
+      "edit-address": "Edit address",
+      "address-label": "Address label",
+      "address": "Address",
+      "main-address": "Main address",
+      "set-main-address": "Set as main address",
+      "delete-address": "Delete address"
+    },
+    "profile-edition": {
+      "title": "Edit profile",
+      "firstName": "First name (public)",
+      "lastName": "Last name (public)",
+      "role": "Role / Position in the structure (public)",
+      "contactHelper": "Cooprogrammers will try to contact you for projects they're interested in",
+      "contactMode": "Preferred contact mode (public)",
+      "contactModeValuePhone": "Phone",
+      "contactModeValueEmail": "Email",
+      "contactValuePhone": "Phone number (public)",
+      "contactValueEmail": "Email (public)",
+      "contactInstructions": "Message for people trying to contact you (public)",
+      "submit": "Edit profile",
+      "delete": "Delete profile",
+      "deleteConfirmationTitle": "Delete profile",
+      "deleteConfirmationMessage": "Are you sure you want to delete this profile? This action cannot be undone."
+    },
+    "profile-creation": {
+      "title": "Create a new profile",
+      "firstName": "First name (public)",
+      "lastName": "Last name (public)",
+      "role": "Role / Position in the structure (public)",
+      "contactHelper": "Cooprogrammers will try to contact you for projects they're interested in",
+      "contactMode": "Preferred contact mode (public)",
+      "contactModeValuePhone": "Phone",
+      "contactModeValueEmail": "Email",
+      "contactValuePhone": "Phone number (public)",
+      "contactValueEmail": "Email (public)",
+      "contactInstructions": "Message for people trying to contact you (public)",
+      "submit": "Create profile"
+    },
+    "profile-selection": {
+      "introduction": "You're connected with the structure...",
+      "title": "Please select a user profile",
+      "helperText": "CooProg allows you to manage multiple profiles for a single user. You can switch between profiles at any time.",
+      "createNew": "Create a new profile",
+      "editProfile": "Edit profile",
+      "selectProfile": "Select profile",
+      "editUser": "Edit structure",
+      "maxProfilesReached": "You have reached the maximum number of profiles, please delete one before creating a new one."
+    },
+    "new-version": {
+      "version": "2.1",
+      "title": "CooProg is evolving!",
+      "content": "The tour schedule is now structured into distinct periods, grouped under a single record for each show. This schedule allows you to indicate performance dates for each period, whether they are optional or confirmed.",
+      "do-not-remind-me": "Do not remind me again",
+      "submit": "Got it"
+    },
+    "discipline-selection": {
+      "title": "New version of CooProg",
+      "content": "CooProg now includes Current Music. You can choose the disciplines you wish to feature in your venue.\n\nDon't worry, you'll be able to update this later in your profile.",
+      "spectacle-vivant": "Performing Arts",
+      "musiques-actuelles": "Music"
+    },
+    "add-participants-tour": {
+      "title": "Add participants to the tour",
+      "description": "Add venues to this tour to invite them to partake.",
+      "field-label": "Search for a venue by name or email",
+      "field-placeholder": "Email, name",
+      "invite-text": "This person doesn't seem to be registered on CooProg yet. Would you like to invite them to join the platform?",
+      "role-label": "Role",
+      "message-label": "Custom message",
+      "message-placeholder": "Write your custom invitation message...",
+      "cancel": "Cancel",
+      "submit": "Add participant",
+      "roleHelperText": {
+        "venue": "Only venues can be added to a tour",
+        "programmer": "Partners can set dates for their own venue and set blocked days",
+        "pilot": "Pilots can fully administrate the planning of the tour and invite people"
+      }
+    },
+    "add-participants-project": {
+      "title": "Add coordinators to project",
+      "description": "Add venues or artistic teams to this project so that they help you manage it.",
+      "field-label": "Search for a venue or artistic team by name or email",
+      "field-placeholder": "Email, name",
+      "invite-text": "This person doesn't seem to be registered on CooProg yet. Would you like to invite them to join the platform?",
+      "role-label": "Role",
+      "message-label": "Custom message",
+      "message-placeholder": "Write your custom invitation message...",
+      "cancel": "Cancel",
+      "submit": "Add coordinator",
+      "roleHelperText": {
+        "initiator": "Project initiators can administrate the project and invite people",
+        "venue": "Venues will be added as project initiator and can administrate the project and invite people",
+        "artistic_team": "Artistic team can update information about the project and invite other partners involved in the project."
+      }
+    },
+    "coordinators-project": {
+      "title": "Add coordinators to project",
+      "description": "Add venues or artistic teams to this project so that they help you manage it.",
+      "field-label": "Search for a venue or artistic team by name or email",
+      "field-placeholder": "Email, name",
+      "invite-text": "This person doesn't seem to be registered on CooProg yet. Would you like to invite them to join the platform?",
+      "role-label": "Role",
+      "cancel": "Cancel",
+      "submit": "Add coordinator",
+      "roleHelperText": {
+        "initiator": "Project initiators can administrate the project and invite people",
+        "venue": "Venues will be added as project initiator and can administrate the project and invite people",
+        "artistic_team": "Artistic team can update information about the project and invite other partners involved in the project."
+      }
+    },
+    "create-tour": {
+      "title": "Share a new tour on \"{{project}}\"",
+      "submit": "Share new tour"
+    },
+    "update-tour": {
+      "title": "Update tour \"{{name}}\"",
+      "submit": "Update tour",
+      "no-changes": "You haven't changed any of the tour information"
+    },
+    "invite-people": {
+      "title": "Invite venues to join CooProg",
+      "field-label": "Invite people by their email so that they can register their venue",
+      "field-placeholder": "Enter an email address",
+      "field-tooltip-valid": "Click to add this email as a recipient",
+      "field-tooltip-invalid": "This email is not valid",
+      "error-email-invalid-format": "Invalid email format.",
+      "recipients": "Recipients",
+      "tooltip": "Invite venues to join CooProg",
+      "submit_zero": "Add someone to invite",
+      "submit_one": "Invite this person",
+      "submit_other": "Invite these {{count}} persons",
+      "error": "Something went wrong. Please try again later.",
+      "success": "Your invitation has been sent successfully.",
+      "missing-link": "Please include an invitation link in your message",
+      "customize-message": "Customize invitation message",
+      "message-label": "Custom message",
+      "message-placeholder": "Write your custom invitation message...",
+      "message-helper": "You can customize the invitation message or use the default template below."
+    },
+    "contact": {
+      "title": "Need help?",
+      "text": "For any questions or suggestions regarding CooProg, don't hesitate: **contact us!** We will reply to you as soon as possible.\n\nIn order for us to help you as best as possible, please mention the name of your structure and that of your project, and indicate precisely the page concerned by your request.",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Your message has been sent successfully."
+    },
+    "password-change": {
+      "title": "Change password",
+      "current-password": "Current password",
+      "new-password": "New password",
+      "confirm-password": "Confirm password",
+      "submit": "Change password",
+      "success": "Your password has been changed successfully."
+    },
+    "project-edit": {
+      "submit": "Save changes"
+    },
+    "new-project": {
+      "title": "Share a new project",
+      "title-artistic-team": "Share a new show listing",
+      "subtitles": {
+        "generalInformations": "General informations",
+        "representationConditions": "Conditions of representation",
+        "budget": "Budget",
+        "artisticTeam": "Artistic Team",
+        "ressources": "Ressources"
+      },
+      "genderDistribution": {
+        "label": "Gender distribution on stage",
+        "man": "man",
+        "men": "men",
+        "woman": "woman",
+        "women": "women",
+        "nonBinaryPerson": "non-binary person",
+        "nonBinaryPeople": "non-binary people"
+      },
+      "numberOfMenOnStage": {
+        "label": "Men"
+      },
+      "numberOfWomenOnStage": {
+        "label": "Women"
+      },
+      "numberOfNonBinaryOnStage": {
+        "label": "Non-binary people"
+      },
+      "culturalActionInterest": {
+        "label": "Artists are interested in cultural actions (masterclasses, outreach, etc.)"
+      },
+      "emergingArtist": {
+        "label": "Emerging artist"
+      },
+      "steps": {
+        "project-information": "Project information",
+        "tour-information": "Tour planning",
+        "share": "Share"
+      },
+      "artist": {
+        "label": "Artist"
+      },
+      "work": {
+        "label": "Work"
+      },
+      "description": {
+        "label": "Encouragement"
+      },
+      "places": {
+        "label": "Location of the artistic team (several possible choices)"
+      },
+      "gauge": {
+        "label": "Capacity (several possible choices)"
+      },
+      "minimumStageSize": {
+        "label": "Possible stage sizes (several possible choices)"
+      },
+      "averagePerformanceFee": {
+        "label": "Average performance fee - without transport costs (several possible choices)",
+        "disabled": "Only artistic teams can set the average performance fee."
+      },
+      "venueConfigurationType": {
+        "label": "Project configuration (several possible choices)"
+      },
+      "venueConfigurationSpace": {
+        "label": "Space type (several possible choices)"
+      },
+      "venueConfigurationAudience": {
+        "label": "Audience configuration (several possible choices)"
+      },
+      "performanceLanguages": {
+        "label": "Performance languages (several possible choices)",
+        "accessibility-label": "Accessibility",
+        "accessibility-visual": "This show is accessible to people with visual impairments.",
+        "accessibility-audio": "This show is accessible to people with hearing impairments."
+      },
+      "numberOfPeople": {
+        "label": "Number of people"
+      },
+      "numberOfArtistOnStage": {
+        "label": "On stage"
+      },
+      "numberOfPeopleOnTour": {
+        "label": "On tour"
+      },
+      "financialSupport": {
+        "label": "Possible financial support",
+        "placeholder": "Specify if financial support is available (amount, type, conditions)"
+      },
+      "project-information": {
+        "description": "### Share the essentials about the show!\nTo help other presenting organizations envision the tour project, share some key information: show content, presentation conditions, budget, and artistic team contacts. These essential details will give your project visibility and make it easier for potential partners to identify.\n\nEnter the information you know for your project. You can invite the artistic team to join the project to fill in the information that concerns them and organize the tour as best as possible.\n\nThis information will be visible to everyone.",
+        "description-artistic-team": "### Check if your show already exists on CooProg!\nType the first letters of your show title. If it already exists, it will automatically appear in the input field.\n\n### You want to share a new show?\nComplete the form below by entering the key information. These information will make your project more visible and easier to identify by the diffusion structures.",
+        "representationConditionsHelper": "Indicate the conditions of representation of the show. Don't hesitate to be exhaustive, the more information you provide, the more your project will be visible and findable by other users.",
+        "artist": "Artist",
+        "complementaryGenre": "Complementary genre",
+        "complementaryGenreHelper": "Use this field to specify additional genre information if needed",
+        "discipline": "Please select a discipline",
+        "titleOfWork": "Title of work",
+        "places": "Cities of implementation (several possible choices)",
+        "places-explanation": "Enter the town where the artistic team is implemented.",
+        "genre": "Genres (several possible choices)",
+        "target-audience": "Target audiences (several possible choices)",
+        "status": "Status",
+        "status-pending": "Pending",
+        "status-confirmed": "Confirmed",
+        "dates": "Please select the approximate dates of your project",
+        "description-label": "Indicate here any information you think would be useful to convince partners to join you in organising a tour",
+        "description-placeholder": "- your motivation, \n- your artistic proposal,\n- additional technical and artistic details, etc.",
+        "description-helper": "The text in this field is not automatically translated. If you are aiming for international cooperation, don't hesitate to include an English translation of your description.",
+        "artistic-team": "Artistic team",
+        "need-discipline-helpers": "Please select a discipline before adding artists to the team.",
+        "artistic-team-description": "Invite your artistic team to join CooProg so that they can participate in the project and organise the tour with you.",
+        "artistic-team-field-label": "Search for an artistic team by name or email",
+        "artistic-team-field-placeholder": "Email, team name",
+        "artistic-team-invite-text": "This artistic team doesn't seem to be registered on CooProg yet. Would you like to invite them to join the platform?",
+        "calendar": {
+          "empty-label": "How to kickstart your project?",
+          "empty": "If you propose or join a project on CooProg, it is with the primary aim of reducing the ecological impact of artistic mobility. Together with other interested users and the producer, you will be looking for the best possible way of getting around, so as to : \n\n1. reduce the length of journeys between each performance as much as possible \n2. avoid round trips between the artistic teams' homes and the touring venues. \n\n----\n\nIf you would like to propose a cooperative project:\n\n1. search for the project on the platform to check that it is not already there. If it is, join that project rather than create a new one;\n2. Enter your project here so that registered users can be informed of your intention - don't hesitate to indicate your flexibility with regards to the dates indicated in order to facilitate the positioning of other users; \n3. Your project is now visible to the community!\n4. Draw the attention of your favourite contacts by letting them know of your intention. \n5. You'll receive notifications when other users position themselves on your project.\n6. Once other users have positioned themselves on the tour, contact them, as well as the show's producer, so that we can work together to achieve the optimum traffic flow defined above; \n7. Don't forget to update your project schedule based on these exchanges, so that others can join you later."
+        },
+        "similarity-description": "{{count}} project with the same artist and work have already been created on Cooprog. Have a look and if one fits your project, just join it!",
+        "button": "See all {{count}} projects"
+      },
+      "tour-information": {
+        "description": "**Let's organize the tour!**\n\n**Create a tour for each planned period around your performance dates.** Specify the estimated start and end dates (month and year), a label, and a few key milestones.\n\nThis information will help other partners, whether they are Cooprog members or not, to better coordinate and enrich the tour project. **Good planning is the key to successful cooperation!**\n\n**If you are working on two distinct periods** (e.g., fall and spring, or October year N and April year N+1), remember to create **two separate tours**.",
+        "name": "Tour name",
+        "name-helper": "Give a name to your tour, by instance : \"Spring 2026 - Roaming Switzerland\", \"Octobre 2027 - Belgium Tour\"...\n\nDon't worry, you can modify the tour name later, or let the artistic team do it.",
+        "dates-explanation": "Indicate the approximate month and year of the tour you are creating.",
+        "logistic": "Logistic",
+        "logistics-artistic-team": "Artistic team",
+        "logistics-decorations": "Decorations and technical equipment",
+        "logistic-explanation": "These logistics-related details are used to calculate the reduction in carbon impact generated by co-programming.\nThis allows us to estimate the distances traveled and deduce the carbon footprint of transporting people and materials.",
+        "decorations-help": "### Help\n#### Volume reference points\n:pickup_truck: 3 m³ ~= small utility van\n:minibus: 6 m³ ~= medium van\n:articulated_lorry: 12 m³ ~= large panel van\n:truck: 20 m³ ~= 20 m³ truck\n:ship: 80 m³ ~= semi-trailer\n\n#### Weight reference points\n:performing_arts: Light sets: 150 to 300 kg / m³\n:loud_sound: Technical equipment: 300 to 500 kg / m³\n:wood: Heavy sets: 500 to 800 kg / m³",
+        "artistic-team-localization": "Artistic team localization",
+        "artistic-team-localization-helper": "Enter here the location that seems most relevant for planning a tour: the departure point of the artistic team, the residence of the majority of the artistic team, the main departure location, the central point, etc.",
+        "people-transport": "Main transportation mode",
+        "people-transport-helper": "The primary mode of transport is used to determine carbon emissions per kilometer. If multiple modes of transport are used, select the one that best represents the environmental impact of your tour.",
+        "people-transport-mode": {
+          "0": {
+            "label": "Train",
+            "icon": "🚂",
+            "emissionFactor": 0.006,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Train grandes lignes 2019 (28144)",
+              "link": "https://data.ademe.fr/datasets/base-carboner"
+            }
+          },
+          "1": {
+            "label": "Car",
+            "icon": "🚗",
+            "default": true,
+            "emissionFactor": 0.16,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Voiture moyenne Mixte 2023 (43809)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "2": {
+            "label": "Motorcycle",
+            "icon": "🏍️",
+            "emissionFactor": 0.217,
+            "unit": "kgCO₂e/km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Moto > 250cm3 Mixte 2023 (43782)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "3": {
+            "label": "Plane",
+            "icon": "✈️",
+            "emissionFactor": 0.169,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Avion passagers >220 sièges, 2000-5000 kms AVEC trainées 2023 (43772)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "4": {
+            "label": "Truck",
+            "icon": "🚚",
+            "emissionFactor": 0.169,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Camion rigide 12 à 20 tonnes Diesel routier 2023 (43716)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "5": {
+            "label": "Bus",
+            "icon": "🚌",
+            "emissionFactor": 0.122,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Autobus Gazole 2023 (43739)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "6": {
+            "label": "Tour Bus",
+            "icon": "🚌",
+            "emissionFactor": 0.122,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Autobus Gazole 2023 (43739)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "7": {
+            "label": "Bicycle",
+            "icon": "🚲",
+            "emissionFactor": 0.00017,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Impact CO2 - Vélo mécanique",
+              "link": "https://impactco2.fr/outils/transport/velo"
+            }
+          },
+          "8": {
+            "label": "Boat",
+            "icon": "⛴️",
+            "emissionFactor": 0.384,
+            "unit": "kgCO₂e/passager.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Navette inter-îles 2023 (28249)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "9": {
+            "label": "Sailboat",
+            "icon": "⛵",
+            "emissionFactor": 0.0,
+            "unit": "kgCO₂e/passager.km"
+          }
+        },
+        "decorations-transport": "Main mode of transport for stage decorations and technical equipment",
+        "decorations-transport-helper": "If the stage decorations or technical equipment are transported by another means, enter it here",
+        "decorations-transport-mode": {
+          "0": {
+            "label": "Train",
+            "icon": "🚂",
+            "emissionFactor": 0.01,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Train motorisation moyenne chargement moyen 2025 (43728)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "1": {
+            "label": "Car",
+            "icon": "🚗",
+            "emissionFactor": 0.842,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - VUL < 3,5 tonnes Diesel 2025 (43735)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "2": {
+            "label": "Motorcycle",
+            "icon": "🏍️",
+            "emissionFactor": 0.217,
+            "unit": "kgCO₂e/km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Moto > 250cm3 Mixte 2023 (43782)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "3": {
+            "label": "Plane",
+            "icon": "✈️",
+            "emissionFactor": 1.22,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Avion cargo, Plus de 100 tonnes, 2000-5000 kms AVEC trainées 2023 (43662)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "4": {
+            "label": "Truck",
+            "icon": "🚚",
+            "default": true,
+            "emissionFactor": 0.169,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Camion rigide 12 à 20 tonnes Diesel routier 2025 (43716)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "5": {
+            "label": "Bus",
+            "icon": "🚌",
+            "emissionFactor": 0.169,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Camion rigide 12 à 20 tonnes Diesel routier 2025 (43716)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "6": {
+            "label": "Boat",
+            "icon": "⛴️",
+            "emissionFactor": 0.013,
+            "unit": "kgCO₂e/t.km",
+            "source": {
+              "label": "ADEME - Base Carbone V23.4 - Cargo 10 000 à 20 000 tonnes 2020 (28241)",
+              "link": "https://librairie.ademe.fr/changement-climatique-et-energie/5170-base-carbone-r.html"
+            }
+          },
+          "7": {
+            "label": "Sailboat",
+            "icon": "⛵",
+            "emissionFactor": 0.0,
+            "unit": "kgCO₂e/t.km"
+          }
+        },
+        "decorationsWeight": "Decorations and technical equipment weight",
+        "planning": "Planning",
+        "month": "Month",
+        "year": "Year",
+        "locations-explanation": "Indicate the location where you are programming this project.\n\n*If you are programming outside your usual location, change the location below.* *If you are programming in your usual location, leave the location as default.*",
+        "planning-explanation": "Indicate at least one performance date, confirmed or on option.",
+        "planning-overlay": {
+          "title": "Please select a month and a year",
+          "description": "The planning will be available once you have selected the period of this tour"
+        },
+        "dates": "Dates",
+        "start": "Start date",
+        "end": "End date"
+      },
+      "visibility": {
+        "description": "You are in visibility mode {{mode}} : you are about to share this project with {{count}} persons",
+        "show-all": "Show all",
+        "incentive": "Switch to open visibility and **share your project to {{count}} {{count > 1 ? 'additional persons' : 'additional person'}}**"
+      },
+      "share": {
+        "description": "**You can optionally share your programming project with other presenting organizations!** This is the first step to getting it known!\n\nYou will be able to share your project later, if you want to.",
+        "message-label": "Custom message",
+        "message-placeholder": "Write your custom sharing message..."
+      },
+      "submit": "Create show card"
+    },
+    "profile": {
+      "title": "User profile",
+      "tabs": {
+        "general-information": "General information",
+        "address": "Addresses",
+        "visibility": "Visibility",
+        "contact-information": "Contact information",
+        "other": "Other",
+        "discipline": "Information de structure"
+      },
+      "success": "Your profile has been updated successfully."
+    },
+    "update-project": {
+      "no-changes": "You haven't changed any of the project information"
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "tourNameRequired": "Tour name is a mandatory field",
+    "monthRequired": "Month is a mandatory field",
+    "yearRequired": "Year is a mandatory field",
+    "atLeastOneDateRequired": "At least one date must be scheduled",
+    "allDatesMustBeInFuture": "All dates must be in the future"
+  },
+  "tour": {
+    "prefix": "Tour"
+  },
+  "richtext-editor": {
+    "text-formatting-tooltip": "Text formatting",
+    "bold-tooltip": "Bold",
+    "italic-tooltip": "Italic",
+    "underline-tooltip": "Underline",
+    "strikethrough-tooltip": "Strikethrough",
+    "align-left-tooltip": "Align left",
+    "align-center-tooltip": "Align center",
+    "align-right-tooltip": "Align right",
+    "justify-tooltip": "Justify",
+    "list-formatting-tooltip": "List formatting",
+    "bullet-list-tooltip": "Bullet list",
+    "numbered-list-tooltip": "Numbered list",
+    "insert-link-placeholder-tooltip": "Insert invitation link",
+    "insert-link-placeholder": "Insert invitation link",
+    "private-invitation-link": "Private invitation link",
+    "share-project-link": "Link to join the project",
+    "insert-share-project-link-placeholder": "Insert link to join the project",
+    "insert-share-project-link-placeholder-tooltip": "Insert link to join the project",
+    "invite-link": "Invitation link",
+    "insert-invite-link-placeholder": "Insert invitation link",
+    "insert-invite-link-placeholder-tooltip": "Insert invitation link"
+  }
+}

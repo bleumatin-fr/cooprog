@@ -1,0 +1,22 @@
+[
+  {
+    "id": "0",
+    "name": "Early childhood"
+  },
+  {
+    "id": "1",
+    "name": "Childhood"
+  },
+  {
+    "id": "2",
+    "name": "Teen"
+  },
+  {
+    "id": "3",
+    "name": "Adulthood"
+  },
+  {
+    "id": "4",
+    "name": "All audiences"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "0",
+    "name": "Theater Stage"
+  },
+  {
+    "id": "1",
+    "name": "Non Dedicated Space"
+  },
+  {
+    "id": "2",
+    "name": "Tent"
+  },
+  {
+    "id": "3",
+    "name": "Gallery Space"
+  },
+  {
+    "id": "4",
+    "name": "Outdoor space"
+  },
+  {
+    "id": "5",
+    "name": "Others"
+  },
+  {
+    "id": "6",
+    "name": "Multiple options"
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "actions": {
+    "login": "Login",
+    "account-already-exists-login": "Already have an account? Login",
+    "register": "Register",
+    "logout": "Logout",
+    "forgot-password": "Forgot password?"
+  },
+  "email": "Mail address",
+  "email-diffusion_structure": "Mail address",
+  "email-artistic_team": "Mail address",
+  "email-helper-text": "This email address and password will serve as an identifier for your team's connections to CooProg.",
+  "address": "Address",
+  "general.information-artistic_team": "Please fill in the information about your company/production company. This information will be visible to other users on the platform.\n\nThese identifiers will be identical for all people working for this structure.",
+  "general.information-diffusion_structure": "Please fill in the information about your structure. This information will be visible to other users on the platform.\n\nThese identifiers will be identical for all people working for this structure.",
+  "address.information": "Enter the address of your structure to facilitate the organization of your future tours.",
+  "address.information-helper-text": "You can enter the city without having to enter the complete address of your structure.",
+  "contact.information": "Please fill in your user profile information to allow programmers to contact you.\n\nSeveral user profiles can use CooProg for the account of your structure. These profiles can be created later once your registration has been validated.",
+  "password": "Password",
+  "choose-password-diffusion_structure": "Choose password - minimum 8 characters",
+  "choose-password-artistic_team": "Choose password - minimum 8 characters",
+  "firstName-diffusion_structure": "First name (Visible to all users)",
+  "firstName-artistic_team": "First name (Visible to all users)",
+  "lastName-diffusion_structure": "Last name (Visible to all users)",
+  "lastName-artistic_team": "Last name (Visible to all users)",
+  "company-diffusion_structure": "Name of structure (Visible to all users)",
+  "company-artistic_team": "Name of structure (Visible to all users)",
+  "company-helper-text-diffusion_structure-tooltip": "One account per structure / venue. The name will appear to other people as chosen here.",
+  "company-helper-text-artistic_team-tooltip": "One account per structure. The name will appear to other people as chosen here.",
+  "company-helper-text-diffusion_structure": "Give precedence to the name of the diffusion structure rather than the legal entity name.",
+  "companyDescription-diffusion_structure": "Structure description (Visible to all users)",
+  "companyDescription-artistic_team": "Structure description (Visible to all users)",
+  "companyDescription-helper-text-diffusion_structure": "Provide a brief description of your structure.",
+  "companyDescription-helper-text-artistic_team": "Provide a brief description of your structure.",
+  "link-diffusion_structure": "Internet link referencing your position as programmer in the structure (private, for moderation)",
+  "link-helper-text-diffusion_structure": "Link to the page on which you appear as one of the structures's programmers. Failing that, any link attesting to this position in the structure (LinkedIn, etc.).",
+  "tos-diffusion_structure": "I accept the <0>terms of service</0>",
+  "tos-artistic_team": "I accept the <0>terms of service</0>",
+  "programmingDisciplines-helper-text-diffusion_structure": "These choices are cumulative. You can modify them at any time.",
+  "programmingDisciplines-helper-text-artistic_team": "These choices are cumulative. You can modify them at any time.",
+  "programmingDisciplines-diffusion_structure": "Select your disciplinary field",
+  "programmingDisciplines-artistic_team": "Select your disciplinary field",
+  "programmingPeriods-placeholder": "Ex: June-August, Year-round...",
+  "structureTypes": "Structure Types",
+  "structureTypes-diffusion_structure": "Structure Types",
+  "programmingPeriods": "Programming Periods",
+  "programmingPeriods-diffusion_structure": "Programming Periods",
+  "programmingPeriods-helper-text-diffusion_structure": "Fill a text specifying the periods during which you program (e.g., September to June, year-round, spring festival...)",
+  "genres-diffusion_structure": "Specify here which are your esthetics",
+  "genres-artistic_team": "Specify here which are your esthetics",
+  "privacy-diffusion_structure": "I accept the <0>privacy policy</0>",
+  "privacy-artistic_team": "I accept the <0>privacy policy</0>",
+  "manifesto-diffusion_structure": "I have read the <0>manifesto</0>",
+  "manifesto-artistic_team": "I have read the <0>manifesto</0>",
+  "login": {
+    "title": "Login",
+    "submit": "Login",
+    "errors": {
+      "awaiting-moderation": "Your account is awaiting moderation. Please try again later.",
+      "invalid-credentials": "E-mail or password is incorrect.",
+      "unauthorized": "Please login to access this page."
+    }
+  },
+  "register": {
+    "title": "Registration",
+    "submit": "Validate and register",
+    "success": "Registration successful! Welcome to CooProg.",
+    "steps": {
+      "information": "Foreword",
+      "general": "Structure Information",
+      "address": "Structure Address",
+      "visibility": "Visibility Mode",
+      "contact": "Profile Information"
+    },
+    "account-type": {
+      "diffusion-structure": "Diffusion Structure",
+      "artistic-team": "Artistic Team"
+    },
+    "contact": "Contact",
+    "what-is-cooprog": "CooProg is a free collaborative platform for building tours, accessible to all professionals who present or program works in the performing arts and/or contemporary music sectors.\n\nCooProg is led by Onda (French Office for Contemporary Performing Arts Circulation) and Zone Franche - the World Music Network.",
+    "information": "Welcome to CooProg.\n\nThis space is intended for diffusion structures and artistic teams working in performing arts and music.\n\nPlease select your account type below to begin your registration.",
+    "information-diffusion-structure": "CooProg welcomes the registrations of performing arts and current music programmers in Europe. The opening of the platform to other geographical spaces will be considered according to its success. Therefore, if you are programmers outside Europe and interested in the project, we kindly ask you to contact CooProg: contact@cooprog.eu.",
+    "contact-information": {
+      "description": "Indicate your preferred contact mode(s)",
+      "email": "Email",
+      "email-address": "Email address",
+      "phone": "Phone",
+      "phone-number": "Phone number",
+      "none": "None",
+      "message": "Specify when and how you prefer to be contacted (weekdays, daytime...)",
+      "message-helper-text": "(free time, specific requests)"
+    },
+    "errors": {
+      "invalid-email": "Invalid email address.",
+      "password-too-short": "Password must be at least 8 characters long.",
+      "missing-address": "Please enter your address.",
+      "tos-required": "Please accept the terms of service.",
+      "privacy-required": "Please accept the privacy policy.",
+      "manifesto-required": "Please accept the manifesto.",
+      "account-type-required": "Please select your account type to continue.",
+      "contact-type-required": "Please select a contact type.",
+      "contact-email-required": "Email address is required.",
+      "contact-email-invalid": "Invalid email address.",
+      "contact-phone-required": "Phone number is required.",
+      "contact-phone-invalid": "Invalid phone number.",
+      "instructions-too-long": "Instructions are too long (maximum 255 characters).",
+      "nearby-address": "Someone seems to have already registered at this address. Only one user account will be validated per programming structure.\n\nAre you sure you want to continue?"
+    }
+  },
+  "confirm-account": {
+    "title": "Account creation",
+    "steps": {
+      "introduction": "Introduction",
+      "account-information": "Structure information",
+      "password-confirmation": "Password confirmation",
+      "address": "Address"
+    },
+    "company": "Name of artistic team",
+    "company-helper-text": "One account per artistic team. The name will appear to other users as chosen here.",
+    "companyDescription": "Artistic team description",
+    "companyDescription-helper-text": "Provide a brief description of your artistic team.",
+    "submit": "Confirm account creation",
+    "introduction": {
+      "invited-by-admin": "You have been invited to join CooProg by an administrator.\n\nPlease fill your account information and enter your password to confirm your account creation.",
+      "invited-by-user": "You have been invited to join CooProg by a user.\n\nPlease fill your account information and enter your password to confirm your account creation.",
+      "submit": "Next"
+    },
+    "errors": {
+      "password-missing": "Please enter your password to confirm your account creation",
+      "address-missing": "Please enter your address to confirm your account creation"
+    },
+    "success": {
+      "artisticTeam": "Your artistic team account has been created successfully"
+    }
+  },
+  "recover": {
+    "title": "Recover password",
+    "submit": "Send recovery email",
+    "success": "An email has been sent to you with a link to reset your password."
+  },
+  "reset-password": {
+    "title": "Reset password",
+    "new-password": "New password",
+    "submit": "Reset password",
+    "success": "Your password has been reset."
+  },
+  "waiting-approval": {
+    "title": "Registration successful",
+    "subtitle": "Account waiting for approval",
+    "moderation-suspended": "Please note that during the month of August, moderation is temporarily suspended due to annual leave.\nYour request will be reviewed as soon as moderation resumes in early September.\n\nWe appreciate your patience and understanding, and we look forward to welcoming you to the CooProg community shortly.",
+    "message": "Thank you for your interest in **CooProg** and for your registration request.\n\nCooProg is a collaborative platform dedicated to **building shared tours** between programmers.\n\nTo ensure that CooProg remains a space for trusted exchange, your registration is **subject to validation by a moderator**.\n\nThis step simply aims to verify that requests come from professionals working in programming at a diffusion structure at the indicated address.\n\nThe verification period is **two working days**. You will be informed by email of the outcome of your request.\n\nOnce your profile is validated, you will be able to use CooProg to **plan coordinated and more environmentally friendly tours**.\n\nFor any questions, please do not hesitate to contact us at: **contact@cooprog.eu**",
+    "back": "Back to homepage"
+  }
+}

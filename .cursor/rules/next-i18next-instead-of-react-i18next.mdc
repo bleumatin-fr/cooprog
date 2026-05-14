@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+When getting `t` from `useTranslation`, please import `useTranslation` from `next-i18next` just like this: `import { useTranslation } from "next-i18next";`.

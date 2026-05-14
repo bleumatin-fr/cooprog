@@ -1,0 +1,52 @@
+[
+  {
+    "id": "0",
+    "name": "Very Small (4x4 m)",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "1",
+    "name": "Small (8x8 m)",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "2",
+    "name": "Medium (12x12 m)",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "3",
+    "name": "Large (20x15 m)",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "4",
+    "name": "Not applicable",
+    "discipline": "performingArts"
+  },
+  {
+    "id": "0",
+    "name": "Very Small (4x4 m)",
+    "discipline": "music"
+  },
+  {
+    "id": "1",
+    "name": "Small (8x8 m)",
+    "discipline": "music"
+  },
+  {
+    "id": "2",
+    "name": "Medium (12x12 m)",
+    "discipline": "music"
+  },
+  {
+    "id": "3",
+    "name": "Large (20x15 m)",
+    "discipline": "music"
+  },
+  {
+    "id": "4",
+    "name": "Beyond that",
+    "discipline": "music"
+  }
+]

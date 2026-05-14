@@ -1,0 +1,47 @@
+name: Production health checks
+
+on:
+  workflow_dispatch: # Manual trigger from the repository "Actions" tab
+  schedule:
+    - cron: "0 * * * *" # Every hour
+
+jobs:
+  healthcheck:
+    runs-on: self-hosted
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Fix permissions
+        run: |
+          sudo chmod -R 777 ${GITHUB_WORKSPACE}
+      - uses: actions/checkout@v4
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "yarn"
+
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps
+
+      - name: Run health check
+        run: yarn workspace ops healthcheck
+        env:
+          URL: ${{ secrets.HEALTH_CHECK_URL }}
+          EMAIL: ${{ secrets.HEALTH_CHECK_EMAIL }}
+          PASSWORD: ${{ secrets.HEALTH_CHECK_PASSWORD }}
+
+      - name: Failure notification
+        if: ${{ failure() }}
+        uses: Ilshidur/action-discord@master
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_MONITORING_WEBHOOK }}
+        with:
+          args: "The Health Check has failed for CooProg Production"

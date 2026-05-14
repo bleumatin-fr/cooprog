@@ -1,0 +1,106 @@
+{
+  "slogan": "Coordinate artistic programming in the new climate regime",
+  "disciplines": {
+    "performingArts": "Performing Arts",
+    "music": "Music",
+    "book": "Book & Reading",
+    "visual": "Visual Arts",
+    "badges": {
+      "new": "New",
+      "soon": "Sometime soon"
+    }
+  },
+  "what-is-coprog": {
+    "title": "What is CooProg ?",
+    "features": {
+      "0": "Add projects",
+      "1": "Search for Projects",
+      "2": "Search for colleagues to share projects",
+      "3": "Cooprogram"
+    }
+  },
+  "do-good": {
+    "title": "Do good to our planet",
+    "subtitle": "Lower the carbon footprint of artistic and audience mobilities",
+    "co2-tons": "tons CO₂e not emitted",
+    "km-avoided": "km avoided"
+  },
+  "get-inspiration": {
+    "title": "Get inspiration and promote your projects",
+    "shared-projects": "shared projects"
+  },
+  "cooperate": {
+    "title": "cooperate",
+    "members": "members"
+  },
+  "cooprog-is": {
+    "title": "Cooprog Is ...",
+    "definitions": {
+      "0": "a platform conceived as a free and open-source common good,",
+      "1": "to allow programmers to share and identify converging projects,",
+      "2": "to achieve time- and geography-efficient touring",
+      "3": "with the aim to limit the ecological footprint of performing arts and music."
+    }
+  },
+  "stakes-and-values": {
+    "title": "Stakes and Values",
+    "definitions": {
+      "0": "We try our best to keep the increase in global temperature well below 2°C, in line with the IPCC recommendations and the legal framework of the Paris Agreement.",
+      "1": "The cultural sector has its part to play : we need to build up sustainability through art & sustainability in the arts.",
+      "2": "Slowing down, territorialising and coordinating should be the key words for programming in the ecological redirection;",
+      "3": "Individual actions aren't enough: we need a coordinated systemic change to lower the footprint of the sector in a significant way.",
+      "4": "The richness and diversity of artistic creation and the intercultural exchange are core values and need to be safeguarded.",
+      "5": "We need to improve the conditions for sustainable regional, national and international mobility for artists.",
+      "6": "CooProg, a tool for coordinated programming in the new Climate Regime is"
+    },
+    "open-source": "an open source and free platform",
+    "tool-to-share": "a tool to share project ideas and decide on programming in a coordinated way",
+    "safe-space": "a safe space to freely share ideas on a reciprocal basis",
+    "decentralized": "a decentralized tool, where people decide what they share",
+    "manifesto": "cooprog manifesto"
+  },
+  "footer": {
+    "legal": "legal mentions",
+    "tos": "General Conditions and Terms of use",
+    "privacy": "privacy policy",
+    "sponsors": "sponsors",
+    "contact": "contact",
+    "github": "github"
+  },
+  "legal": {
+    "title": "Legal notice",
+    "text": "In accordance with the provisions of France's law of 21 June 2004 (LCEN), the Client can find below information concerning:\n\n**_The editor of the site:_**\n\n**ONDA - Office national de diffusion artistique**\n\n13 bis rue Henry Monnier, 75009 Paris - France\nEmail: contact@onda.fr \nTel: 33 (0)1 42 80 28 22\nOnda is a voluntary organisation subsidised by the French Ministry of Culture (Directorate-General for Artistic Creation & General Secretariat).\n\nThe site's publication director is Marie-Pia Bureau in her capacity as Director of ONDA.\n\nYou can contact them at the following email address: contact@cooprog.eu\n\n**_Site hosting:_**\n\n**Infomaniak Network SA**\n\nRegistered address: Rue Eugène Marziano 25\n1227 Les Acacias (GE)\nGeneva, Switzerland\nWebsite: https://www.infomaniak.com/fr\nContact: https://www.infomaniak.com/fr/aide",
+    "close": "Close"
+  },
+  "sponsors": {
+    "title": "Sponsors",
+    "text": "",
+    "names": {
+      "0": {
+        "label": "ONDA",
+        "image": "onda.png"
+      },
+      "1": {
+        "label": "Schweizer Kulturstiftung Pro helvetia",
+        "image": "pro-helvetia.png"
+      },
+      "2": {
+        "label": "Ville de Esch-sur-Alzette",
+        "image": "esch.jpg"
+      },
+      "3": {
+        "label": "Œuvre Nationale de Secours Grande-Duchesse Charlotte",
+        "image": "oeuvre.png"
+      },
+      "4": {
+        "label": "Goethe Institut",
+        "image": "goethe.jpg"
+      },
+      "5": {
+        "label": "Association des Scène Nationales",
+        "image": "asn.png"
+      }
+    },
+    "close": "Close"
+  }
+}

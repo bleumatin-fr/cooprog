@@ -1,0 +1,105 @@
+{
+  "slogan": "Coordonner la programmation artistique dans le nouveau régime climatique",
+  "disciplines": {
+    "performingArts": "Spectacle vivant",
+    "music": "Musiques actuelles",
+    "book": "Livres & lecture",
+    "visual": "Arts visuels",
+    "badges": {
+      "new": "Nouveau",
+      "soon": "À venir"
+    }
+  },
+  "what-is-coprog": {
+    "title": "Qu'est-ce que CooProg ?",
+    "features": {
+      "0": "Ajouter des projets",
+      "1": "Rechercher des projets",
+      "2": "Rechercher des collègues pour partager des projets",
+      "3": "Cooprogrammer"
+    }
+  },
+  "do-good": {
+    "title": "Faire du bien à notre planète",
+    "subtitle": "Réduire l'empreinte carbone des mobilités artistiques et du public",
+    "km-avoided": "km évités"
+  },
+  "get-inspiration": {
+    "title": "Trouver de l'inspiration et promouvoir vos projets",
+    "shared-projects": "projets partagés"
+  },
+  "cooperate": {
+    "title": "coopérer",
+    "members": "membres"
+  },
+  "cooprog-is": {
+    "title": "CooProg, c'est...",
+    "definitions": {
+      "0": "une plateforme conçue comme un bien commun libre et open source,",
+      "1": "permettant aux programmateur⸱ices de partager et d'identifier des projets convergents,",
+      "2": "pour réaliser des tournées efficaces en termes de temps et de géographie,",
+      "3": "dans le but de limiter l'empreinte écologique des arts de la scène et des musiques actuelles."
+    }
+  },
+  "stakes-and-values": {
+    "title": "Enjeux et Valeurs",
+    "definitions": {
+      "0": "Nous travaillons pour maintenir l'augmentation de la température mondiale nettement en dessous de 2°C, conformément aux recommandations du GIEC et au cadre juridique de l'Accord de Paris.",
+      "1": "Le secteur culturel a son rôle à jouer : nous devons développer la durabilité par l'art et la durabilité dans les arts;",
+      "2": "Ralentir, territorialiser et coordonner devraient être les mots clés de la programmation dans la redirection écologique ;",
+      "3": "Les actions individuelles ne suffisent pas : nous avons besoin d'un changement systémique et coordonné pour générer une réduction significative de l'empreinte du secteur.",
+      "4": "La richesse et la diversité de la création artistique et l'échange interculturel sont des valeurs fondamentales qui doivent être préservées.",
+      "5": "Nous devons améliorer les conditions d'une mobilité régionale, nationale et internationale durable pour les artistes.",
+      "6": "CooProg, un outil de programmation coordonnée dans le nouveau régime climatique, est:"
+    },
+    "open-source": "une plateforme libre et gratuite",
+    "tool-to-share": "un outil pour partager des idées de projets et décider de la programmation de manière coordonnée",
+    "safe-space": "un espace sécurisé pour partager librement des idées sur la base de la réciprocité",
+    "decentralized": "un outil décentralisé, où les utilisateur⸱ices décident de ce qu'ils partagent.",
+    "manifesto": "manifeste de coprogrammation"
+  },
+  "footer": {
+    "legal": "mentions légales",
+    "tos": "Conditions Générales et Termes d'Utilisation",
+    "privacy": "politique de confidentialité",
+    "sponsors": "sponsors",
+    "contact": "contact",
+    "github": "github"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "text": "Conformément aux dispositions de la loi du 21 juin 2004 (LCEN), le Client trouvera ci-dessous les informations concernant :\n\n**_L'éditeur du site :_**\n\n**ONDA - Office national de diffusion artistique**\n\n13 bis rue Henry Monnier, 75009 Paris - France\nEmail: Contact@onda.fr \ntél.: 33 (0)1 42 80 28 22\nL'Onda est une association subventionnée par le ministère de la Culture (direction générale de la Création artistique & Secrétariat général)\n\nLa directrice de publication du site est Marie-Pia Bureau, Directrice de l'Onda\n\nL'Utilisateur⸱ice peut la contacter à l'adresse suivante : contact@cooprog.eu\n\n**_L'hébergeur du site ::_**\n\n**Infomaniak Network SA**\n\nSiège social : Rue Eugène Marziano 25\n1227 Les Acacias (GE)\nGenève, Suisse\nSite internet : https://www.infomaniak.com/fr\nContact : https://www.infomaniak.com/fr/aide",
+    "close": "Fermer"
+  },
+  "sponsors": {
+    "title": "Sponsors",
+    "text": "",
+    "names": {
+      "0": {
+        "label": "ONDA",
+        "image": "onda.png"
+      },
+      "1": {
+        "label": "Schweizer Kulturstiftung Pro helvetia",
+        "image": "pro-helvetia.png"
+      },
+      "2": {
+        "label": "Ville de Esch-sur-Alzette",
+        "image": "esch.jpg"
+      },
+      "3": {
+        "label": "Œuvre Nationale de Secours Grande-Duchesse Charlotte",
+        "image": "oeuvre.png"
+      },
+      "4": {
+        "label": "Goethe Institut",
+        "image": "goethe.jpg"
+      },
+      "5": {
+        "label": "Association des Scène Nationales",
+        "image": "asn.png"
+      }
+    },
+    "close": "Fermer"
+  }
+}

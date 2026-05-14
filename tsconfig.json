@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "paths": {
+      "@posci/*": ["./packages/*/src"],
+      "@cooprog/core": ["./packages/core/src"]
+    }
+  },
+  "exclude": ["**/node_modules", "**/.*/", "**/jest.config.js", "**/.build"]
+}

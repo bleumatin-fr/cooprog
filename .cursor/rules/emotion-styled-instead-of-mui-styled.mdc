@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+When importing `styled`, import it from `@emotion/styled` instead of `@mui/material` or anything else. You can import it just like this: `import styled from "@emotion/styled";`

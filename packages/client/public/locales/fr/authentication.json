@@ -1,0 +1,149 @@
+{
+  "actions": {
+    "login": "Connexion",
+    "account-already-exists-login": "Vous avez déjà un compte ? Connectez-vous",
+    "register": "S'inscrire",
+    "logout": "Déconnexion",
+    "forgot-password": "Mot de passe oublié ?"
+  },
+  "email": "Adresse e-mail",
+  "email-diffusion_structure": "Adresse e-mail",
+  "email-artistic_team": "Adresse e-mail",
+  "email-helper-text": "Cette adresse email et ce mot de passe servira d'identifiant de connexion et sera identique pour tous les profils utilisés par votre équipe pour agir sur CooProg.",
+  "address": "Adresse",
+  "general.information-artistic_team": "Veuillez renseigner les informations concernant votre compagnie/bureau de production. Ces informations seront visibles par les autres utilisateur⸱ices de la plateforme.\n\nCes identifiants seront identiques pour toutes les personnes travaillant pour le compte de cette structure.",
+  "general.information-diffusion_structure": "Veuillez renseigner les informations concernant votre structure. Ces informations seront visibles par les autres utilisateur⸱ices de la plateforme.\n\nCes identifiants seront identiques pour toutes les personnes travaillant pour le compte de cette structure.",
+  "address.information": "Renseignez l'adresse de votre structure pour faciliter l'organisation de vos futures tournées.",
+  "address.information-helper-text": "Vous pouvez saisir la ville sans avoir à saisir l'adresse complète de votre structure.",
+  "contact.information": "Veuillez renseigner vos informations de profil utilisateur⸱ice pour permettre aux programmateur⸱ices de vous contacter.\n\nPlusieurs profils utilisateur•ice•s peuvent  utiliser CooProg pour le compte de votre structure. Ces profils peuvent être créer ultérieurement une fois votre inscription validée.",
+  "password": "Mot de passe",
+  "choose-password-diffusion_structure": "Choisissez un mot de passe - 8 caractères minimum",
+  "choose-password-artistic_team": "Choisissez un mot de passe - 8 caractères minimum",
+  "firstName-diffusion_structure": "Prénom (Visible par tous les utilisateurs)",
+  "firstName-artistic_team": "Prénom (Visible par tous les utilisateurs)",
+  "lastName-diffusion_structure": "Nom de famille (Visible par tous les utilisateurs)",
+  "lastName-artistic_team": "Nom de famille (Visible par tous les utilisateurs)",
+  "company-diffusion_structure": "Nom de la structure (Visible par tous les utilisateurs)",
+  "company-artistic_team": "Nom de la structure (Visible par tous les utilisateurs)",
+  "company-helper-text-diffusion_structure-tooltip": "Un compte par structure. Le nom apparaîtra aux autres utilisateur⸱ices comme choisi ici.",
+  "company-helper-text-artistic_team-tooltip": "Un compte par structure. Le nom apparaîtra aux autres utilisateur⸱ices comme choisi ici.",
+  "company-helper-text-diffusion_structure": "Faire prevaloir le nom de la structure de diffusion plutôt que la raison sociale.",
+  "companyDescription-diffusion_structure": "Description de la structure (Visible par tous les utilisateurs)",
+  "companyDescription-artistic_team": "Description de l'équipe artistique (Visible par tous les utilisateurs)",
+  "companyDescription-helper-text-diffusion_structure": "Fournissez une brève description de votre structure.",
+  "companyDescription-helper-text-artistic_team": "Fournissez une brève description de votre structure.",
+  "link-diffusion_structure": "Lien internet référençant votre fonction de programmateur⸱ice dans la structure (privé, pour modération)",
+  "link-helper-text-diffusion_structure": "Lien vers la page où vous apparaissez comme programmateur⸱ice de la structure. A défaut tout lien attestant de cette position dans la structure (LinkedIn, etc.).",
+  "tos-diffusion_structure": "J'accepte les <0>conditions d'utilisation</0>",
+  "tos-artistic_team": "J'accepte les <0>conditions d'utilisation</0>",
+  "programmingDisciplines-helper-text-diffusion_structure": "Ces choix sont cumulatifs. Vous pouvez les modifier à tout moment.",
+  "programmingDisciplines-helper-text-artistic_team": "Ces choix sont cumulatifs. Vous pouvez les modifier à tout moment.",
+  "programmingDisciplines-diffusion_structure": "Sélectionnez votre champ disciplinaire",
+  "programmingDisciplines-artistic_team": "Sélectionnez votre champ disciplinaire",
+  "structureTypes-diffusion_structure": "Type de structure",
+  "programmingPeriods-diffusion_structure": "Périodes de programmation",
+  "programmingPeriods-helper-text-diffusion_structure": "Renseignez un texte précisant les périodes durant lesquelles vous programmez (ex: septembre à juin, toute l'année, festival de printemps...)",
+  "genres-diffusion_structure": "Précisez ici quelles sont vos esthétiques",
+  "genres-artistic_team": "Précisez ici quelles sont vos esthétiques",
+  "privacy-diffusion_structure": "J'accepte la <0>politique de confidentialité</0>",
+  "privacy-artistic_team": "J'accepte la <0>politique de confidentialité</0>",
+  "manifesto-diffusion_structure": "J'ai pris connaissance du <0>manifeste</0>",
+  "manifesto-artistic_team": "J'ai pris connaissance du <0>manifeste</0>",
+  "login": {
+    "title": "Connexion",
+    "submit": "Se connecter",
+    "errors": {
+      "awaiting-moderation": "Votre compte est en attente de modération. Veuillez réessayer ultérieurement.",
+      "invalid-credentials": "Adresse e-mail ou mot de passe incorrect.",
+      "unauthorized": "Veuillez vous connecter pour accéder à cette page."
+    }
+  },
+  "register": {
+    "title": "Inscription",
+    "submit": "Valider et s'inscrire",
+    "success": "Inscription réussie ! Bienvenue sur CooProg.",
+    "steps": {
+      "information": "Préambule",
+      "general": "Informations structure",
+      "address": "Adresse structure",
+      "visibility": "Mode de visibilité",
+      "contact": "Informations profil"
+    },
+    "account-type": {
+      "diffusion-structure": "Structure de diffusion",
+      "artistic-team": "Équipe artistique"
+    },
+    "contact": "Contact",
+    "what-is-cooprog": "CooProg est une plateforme gratuite et collaborative de montage de tournée, accessible à l’ensemble des professionnels qui diffusent ou programment des œuvres relevant du spectacle vivant et/ou des musiques actuelles.\n\nCooProg est piloté par l’Onda (Office national de diffusion artistique) et Zone Franche – le réseau des Musiques du Monde.",
+    "information": "Bienvenue sur CooProg.\n\nCet espace est destiné aux structures de diffusion et aux équipes artistiques travaillant dans le spectacle vivant et la musique.\n\nMerci de sélectionner votre type de compte pour démarrer votre inscription.",
+    "information-diffusion-structure": "CooProg accueille les inscriptions des programmateur⸱ices de spectacle vivant et des musiques actuelles européen⸱nes. L’ouverture de la plateforme à d’autres espaces géographiques sera envisagé selon son succès. Par conséquent, si vous êtes programmateur⸱ices en dehors de l’Europe et intéressé⸱es par le projet, nous vous remercions de contacter CooProg : contact@cooprog.eu.",
+    "contact-information": {
+      "description": "Indiquer votre/vos mode(s) de contact préférés",
+      "select-type": "Mode de contact préféré (Visible par les structures de diffusion)",
+      "email": "E-mail",
+      "email-address": "Adresse e-mail (Visible par les structures de diffusion)",
+      "phone": "Téléphone",
+      "phone-number": "Numéro de téléphone (Visible par les structures de diffusion)",
+      "none": "Aucun",
+      "message": "Précisez quand et comment vous préférez être contacté·e (en semaine, en journée...)",
+      "message-helper-text": "(temps libre, demandes spécifiques)"
+    },
+    "errors": {
+      "invalid-email": "Adresse e-mail invalide.",
+      "password-too-short": "Le mot de passe doit comporter au moins 8 caractères.",
+      "missing-address": "Veuillez saisir votre adresse.",
+      "account-type-required": "Veuillez sélectionner votre type de compte pour continuer.",
+      "contact-type-required": "Veuillez sélectionner un type de contact.",
+      "contact-email-required": "L'adresse e-mail est requise.",
+      "contact-email-invalid": "Adresse e-mail invalide.",
+      "contact-phone-required": "Le numéro de téléphone est requis.",
+      "contact-phone-invalid": "Numéro de téléphone invalide.",
+      "instructions-too-long": "Les instructions sont trop longues (maximum 255 caractères).",
+      "nearby-address": "Quelqu'un d'autre s'est déjà inscrit à cette adresse. Un seul compte utilisateur⸱ice sera validé par structure de programmation.\n\nÊtes-vous sûr⸱e de vouloir continuer ?"
+    }
+  },
+  "confirm-account": {
+    "title": "Création de compte",
+    "steps": {
+      "introduction": "Introduction",
+      "account-information": "Informations de compte",
+      "password-confirmation": "Confirmation du mot de passe",
+      "address": "Adresse"
+    },
+    "company": "Nom de l'équipe artistique",
+    "company-helper-text": "Un compte par équipe artistique. Le nom apparaîtra aux autres utilisateur⸱ices comme choisi ici.",
+    "companyDescription": "Description de l'équipe artistique",
+    "companyDescription-helper-text": "Fournissez une brève description de votre équipe artistique.",
+    "submit": "Valider et créer le compte",
+    "introduction": {
+      "invited-by-admin": "Vous avez été invité⸱e à rejoindre CooProg par un administrateur⸱ice.\n\nRemplissez vos informations de compte et entrez votre mot de passe pour confirmer la création de votre compte.",
+      "invited-by-user": "Vous avez été invité⸱e à rejoindre CooProg par un utilisateur⸱ice.\n\nRemplissez vos informations de compte et entrez votre mot de passe pour confirmer la création de votre compte.",
+      "submit": "Suivant"
+    },
+    "errors": {
+      "password-missing": "Veuillez entrer votre mot de passe pour confirmer la création de votre compte",
+      "address-missing": "Veuillez entrer votre adresse pour confirmer la création de votre compte"
+    },
+    "success": {
+      "artisticTeam": "Votre compte d'équipe artistique a été créé avec succès"
+    }
+  },
+  "recover": {
+    "title": "Récupérer le mot de passe",
+    "submit": "Envoyer l'e-mail de récupération",
+    "success": "Un e-mail vous a été envoyé avec un lien pour réinitialiser votre mot de passe."
+  },
+  "reset-password": {
+    "title": "Réinitialiser le mot de passe",
+    "new-password": "Nouveau mot de passe",
+    "submit": "Réinitialiser le mot de passe",
+    "success": "Votre mot de passe a été réinitialisé."
+  },
+  "waiting-approval": {
+    "title": "Inscription réussie",
+    "subtitle": "Compte en attente d'approbation",
+    "moderation-suspended": "Veuillez noter que pendant le mois d'août, la modération est temporairement suspendue en raison de congés annuels.\nVotre demande sera examinée dès que la modération reprend en septembre.\n\nNous vous remercions de votre patience et de votre compréhension, et nous vous souhaitons la bienvenue dans la communauté CooProg dans les plus brefs délais.",
+    "message": "Merci pour l'intérêt que vous portez à **CooProg** et pour votre demande d'inscription.\n\nCooProg est une plateforme collaborative dédiée à la **construction de tournées mutualisées** entre programmateur·rice·s.\n\nAfin que CooProg demeure un espace d'échange fondé sur la confiance, votre inscription est **soumise à validation par un·e modérateur·rice**.\n\nCette étape vise simplement à vérifier que les demandes proviennent bien de professionnel·le·s exerçant une fonction de programmation dans une structure de diffusion à l'adresse indiquée.\n\nLe délai de vérification est de **deux jours ouvrables**. Vous serez informé·e par mail de la suite donnée à votre demande.\n\nUne fois votre profil validé, vous pourrez utiliser CooProg, pour **planifier des tournées coordonnées et plus respectueuses de l'environnement**.\n\nPour toute question, n'hésitez pas à nous contacter à : **contact@cooprog.eu**",
+    "back": "Retour à la page d'accueil"
+  }
+}

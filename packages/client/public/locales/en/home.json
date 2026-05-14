@@ -1,0 +1,68 @@
+{
+  "unknown_venue": "Venue not provided",
+  "venue_dashboard": {
+    "project_with_interest": {
+      "title": "Projects with interest"
+    },
+    "scheduled_projects": {
+      "title": "Scheduled projects"
+    },
+    "date_tab_one": "Project with programs ({{count}})",
+    "date_tab_other": "Projets with programs ({{count}})",
+    "interest_tab_one": "Project with interest ({{count}})",
+    "interest_tab_other": "Projects with interest ({{count}})",
+    "no_date_title": "No scheduled projects",
+    "no_date_text": "ou currently have no projects with confirmed or pending dates. Once a project is scheduled with your organization, it will appear here.",
+    "no_interest_title": "No projects marked with interest",
+    "no_interest_text": "You haven't shown interest in any projects yet. Browse the available projects to discover works that might fit your upcoming season."
+  },
+  "artistic_dashboard": {
+    "title_one": "My event",
+    "title_other": "My events ({{count}})",
+    "select_work": "Projects",
+    "no_structure_title": "No projects found for your team",
+    "no_structure_text": "No projects are currently associated with your artistic team. If you believe this is an error or would like to register a project, please contact the Cooprog team or your partner venue."
+  },
+  "my-projects": {
+    "title": "My projects ({{count}})"
+  },
+  "all-cooprog": {
+    "title": "All of the CooProg community",
+    "all-projects": {
+      "main": "<0>{{count}}</0><1>active projects</1>",
+      "sub": "<1>including</1> <0>{{count}}</0> <1>new projects</1>",
+      "submit": "See all projects"
+    },
+    "all-users": {
+      "title": "<0>{{count}}</0><1>active venues</1>",
+      "subtitle": "<1>including</1> <0>{{count}}</0> <1>new venues</1>",
+      "button": "See all venues"
+    },
+    "all-artistic-teams": {
+      "title": "<0>{{count}}</0><1>active artistic teams</1>",
+      "subtitle": "<1>including</1> <0>{{count}}</0> <1>new artistic teams</1>",
+      "button": "See all artistic teams"
+    }
+  },
+  "notifications": {
+    "title": "Notifications"
+  },
+  "no_dashboard": {
+    "title": "Welcome to CooProg!",
+    "description": "As a {{role}}, you don't have a personal planning dashboard since this feature is specifically designed for artistic teams and venues to manage their projects and tours.\n\nDon't worry though! You can still:\n- Browse and discover all projects in the community\n- View detailed information about each project\n- Follow the progress of tours and performances\n\nUse the menu above to explore all the features available to you!"
+  },
+  "empty_dashboard": {
+    "artistic_team": {
+      "title": "Welcome to your dashboard!",
+      "description": "Your show will appear on the dashboard as soon as a venue sets the first date (confirmed or in option) of a first tour project.\n\n**Once this first date is set, the tour is launched!**\nIndicate all the dates of the tour, your desired programming periods, share the project's evolutions in the chat and complete all the information necessary for its organization.",
+      "create_project": "Search or create a show on CooProg",
+      "create_project_explanation": "Check if your show is already on CooProg or create it by clicking the button above!"
+    },
+    "diffusion_structure": {
+      "title": "Welcome to your dashboard!",
+      "description": "There's nothing here yet... but it won't be long! 🌟\n\nYour dashboard will fill up as you schedule programming.\n\nStart now by **exploring touring projects** or **sharing your programming intentions**.",
+      "create_project": "Create Project",
+      "browse_projects": "Browse Projects"
+    }
+  }
+}

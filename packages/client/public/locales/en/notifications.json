@@ -1,0 +1,71 @@
+{
+  "new-activity": {
+    "title_one": "{{count}} new activity on {{project, projectTitle}} - {{tour.name}}",
+    "title_other": "{{count}} new activities on {{project, projectTitle}} - {{tour.name}}",
+    "see-project": "See project"
+  },
+  "no-notifications": "No notifications",
+  "mark-as-read": "Mark as read",
+  "follow-request": {
+    "title": "{{user.firstName}} {{user.lastName}} ({{user.company}}) wants to follow you",
+    "see-user": "See {{user.firstName}} {{user.lastName}}'s profile",
+    "answer-request": "Answer request",
+    "accept": {
+      "label": "Accept follow request",
+      "message": "{{user.firstName}} {{user.lastName}} will follow your projects but you don't want to follow their projects"
+    },
+    "accept-and-follow-back": {
+      "label": "Accept follow request and follow back",
+      "message": "{{user.firstName}} {{user.lastName}} will follow your projects and you will be able to follow theirs"
+    },
+    "refuse": {
+      "label": "Refuse",
+      "message": "You don't want to share projects with {{user.firstName}} {{user.lastName}}"
+    }
+  },
+  "follow-request-accepted": {
+    "title": "{{user.firstName}} {{user.lastName}} accepted your follow request",
+    "see-user": "See {{user.firstName}} {{user.lastName}}'s profile"
+  },
+  "follow-request-accepted-and-back": {
+    "title": "{{user.firstName}} {{user.lastName}} accepted your follow request and follows you back",
+    "see-user": "See {{user.firstName}} {{user.lastName}}'s profile"
+  },
+  "people-joined": {
+    "title_one": "1 new person joined your project {{project, projectTitle}}",
+    "title_other": "{{count}} new people joined your project {{project, projectTitle}}",
+    "see-project": "See project"
+  },
+  "project-edition": {
+    "title": "{{user.firstName}} {{user.lastName}} wishes to edit some information on your project {{project, projectTitle}}",
+    "answer": "See the request and answer"
+  },
+  "project-edition-accepted": {
+    "title": "{{user.firstName}} {{user.lastName}} accepted your modification proposal on {{project, projectTitle}}",
+    "see-project": "See project"
+  },
+  "project-edition-rejected": {
+    "title": "{{user.firstName}} {{user.lastName}} refused your modification proposal on {{project, projectTitle}}",
+    "see-project": "See project"
+  },
+  "project-shared": {
+    "title": "{{user.firstName}} {{user.lastName}} wants to bring your attention onto the project {{project, projectTitle}}",
+    "see-project": "See project"
+  },
+  "tour-shared": {
+    "title": "{{user.firstName}} {{user.lastName}} wants to bring your attention onto the tour {{tour.name}} of the project {{project, projectTitle}}",
+    "see-tour": "See tour"
+  },
+  "project-user-added": {
+    "project": {
+      "title": "{{user.firstName}} {{user.lastName}} added you to the project {{project, projectTitle}}"
+    },
+    "tour": {
+      "title": "{{user.firstName}} {{user.lastName}} added you to the tour {{tour.name}} of project {{project, projectTitle}}"
+    },
+    "see-project": "See project"
+  },
+  "date-scheduled-for-you": {
+    "title": "{{user.firstName}} {{user.lastName}} scheduled a $t(projects:tours.planning.programTypes.{{status}}) for you in the tour {{tour.name}} of project {{project, projectTitle}}"
+  }
+}

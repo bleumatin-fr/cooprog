@@ -1,0 +1,47 @@
+# This workflow will perform a mongodump of the production dump and push it to repository
+
+name: Production backup
+
+on:
+  workflow_dispatch: # Manual trigger from the repository "Actions" tab
+  schedule:
+    - cron: "0 9 * * *"
+
+jobs:
+  backup:
+    runs-on: self-hosted
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: MongoDB Backup
+        uses: appleboy/ssh-action@master
+        with:
+          host: "ov-301495.infomaniak.ch"
+          username: debian
+          key: ${{ secrets.PRODUCTION_SSH_PRIVATE_KEY }}
+          script: |
+            datetime=$(date +"%Y-%m-%dT%H:%M:%S")
+            filename="${datetime}.mongodump"
+
+            docker compose \
+              -f /cooprog/compose.yml \
+              exec cooprog_mongo \
+              mongodump "${{ secrets.PRODUCTION_MONGODB_URI }}" --archive=/data/backup/$filename
+
+            aws s3 cp \
+              /cooprog/.docker/mongo/backup/$filename \
+              ${{ secrets.BACKUP_REPOSITORY }}
+
+            docker compose \
+              -f /cooprog/compose.yml \
+              exec cooprog_mongo \
+              rm /data/backup/$filename
+
+      - name: Failure notification
+        if: ${{ failure() }}
+        uses: Ilshidur/action-discord@master
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_MONITORING_WEBHOOK }}
+        with:
+          args: "The MongoDB backup has failed for CooProg Production"

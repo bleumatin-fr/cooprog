@@ -1,0 +1,107 @@
+{
+  "table": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "company": "Structure",
+    "distance": "Distance"
+  },
+  "genres": "Genres",
+  "empty": "There seems to be no users matching your search criteria in this area.\n\nTry to remove some filters.",
+  "empty-artistic_team": "This tool allows you to search which diffusion structures (programmers) are registered on CooProg, and thus facilitate your work of approaching them.\n\nTo search for diffusion structures, please enter the name of a structure in the search bar.",
+  "location": "Location",
+  "programmingPeriods": "Programming periods",
+  "company": "Structure",
+  "no-company": "No structure",
+  "projects": "Projects",
+  "diffusion_structure": {
+    "count_zero": "No venues",
+    "count_one": "1 venues",
+    "count_other": "{{count}} venues",
+    "totalcount": "/ {{count}} total venues"
+  },
+  "artistic_team": {
+    "count_zero": "No artistic teams",
+    "count_one": "1 artistic team",
+    "count_other": "{{count}} artistic teams",
+    "totalcount": "/ {{count}} total teams"
+  },
+  "disciplines": {
+    "performingArts": "Performing Arts",
+    "music": "Music"
+  },
+  "structureTypes": {
+    "venue": "Venue",
+    "festival": "Festival",
+    "itinerant": "Touring"
+  },
+  "explanations": {
+    "follow-eachother": "You follow each other",
+    "you-follow": "You follow this user, they don't follow you yet",
+    "they-follow": "This user follows you, you don't follow them yet",
+    "you": "That's you!",
+    "in-range": "This user is close to you",
+    "open": "This user shares their projects openly"
+  },
+  "filters": {
+    "filters": "Filters",
+    "search": "Type the name of a venue or person to start searching...",
+    "distance": "Distance",
+    "distance-unlimited": "Unlimited",
+    "distance-helper": "Click on the distance you want to see...",
+    "place": "Location",
+    "place-helper": "Filter structures based on their main address (country, region, city).",
+    "place-country-label": "Country",
+    "place-region-label": "Region / county",
+    "place-city-label": "City",
+    "followers": "Followers",
+    "followers-helper": "Enable this filter to see your followers only...",
+    "following": "Following",
+    "following-helper": "Enable this filter to see people following you only...",
+    "discipline": "Discipline",
+    "discipline-helper": "Click on the disciplines you want to see...",
+    "clear": "Clear all",
+    "submit": "Show {{count}} users",
+    "structureTypes": "Structure types",
+    "structureTypesHelper": "Enable this filter to see venues of this type.",
+    "programmedGenres": "Genres",
+    "programmedGenresHelper": "Enable this filter to see venues programming in these genres."
+  },
+  "sorts": {
+    "distance": "Nearest Distance",
+    "-distance": "Farthest Distance"
+  },
+  "profiles": "Profiles",
+  "actions": {
+    "contact": "Contact",
+    "follow": "Follow",
+    "copy": "Copy to clipboard",
+    "copy-all": "Copy all email addresses to clipboard",
+    "copy-success": "Contact copied to clipboard",
+    "edit-profile": "Edit my account"
+  },
+  "no-projects": "No projects",
+  "followed": "Following already",
+  "follow": {
+    "success": "Successfully requested to follow",
+    "errors": {
+      "already-requested": "Request already sent"
+    }
+  },
+  "follow-back": {
+    "success": "Successfully requested to follow back"
+  },
+  "follow-accept": {
+    "success": "Successfully accepted to be followed"
+  },
+  "refused": {
+    "success": "Successfully refused to be followed"
+  },
+  "follower-count_zero": "No followers",
+  "follower-count_one": "1 follower",
+  "follower-count_other": "{{count}} followers",
+  "unpublished-project-count_one": "Shows without tour in progress (1)",
+  "unpublished-project-count_other": "Shows without tour in progress ({{count}})",
+  "published-project-count_one": "Active project (1)",
+  "published-project-count_other": "Active projects ({{count}})",
+  "projects-title": "Projects"
+}

@@ -1,0 +1,53 @@
+const ClusterIcon = ({ children, ...props }: any) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={45}
+    height={45}
+    viewBox="0 0 700 700"
+    {...props}
+  >
+    <circle
+      cx={350}
+      cy={350}
+      r={300}
+      fillOpacity={0.4}
+      stroke="${borderColor}"
+      strokeWidth={40}
+    />
+    <circle
+      cx={350}
+      cy={350}
+      r={250}
+      fillOpacity={0.6}
+      stroke="${borderColor}"
+      strokeWidth={40}
+    />
+    <circle
+      cx={350}
+      cy={350}
+      r={200}
+      fillOpacity={0.8}
+      stroke="${borderColor}"
+      strokeWidth={40}
+    />
+    <circle
+      cx={350}
+      cy={350}
+      r={150}
+      stroke="${borderColor}"
+      strokeWidth={40}
+    />
+    <text
+      x="50%"
+      y="50%"
+      fill="#fff"
+      dominantBaseline="central"
+      fontSize="15em"
+      textAnchor="middle"
+    >
+      {children}
+    </text>
+  </svg>
+);
+
+export default ClusterIcon;

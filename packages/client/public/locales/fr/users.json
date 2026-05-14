@@ -1,0 +1,106 @@
+{
+  "table": {
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "company": "Structure",
+    "distance": "Distance"
+  },
+  "genres": "Genres",
+  "empty": "Il semble qu'il n'y ait pas d'utilisateur⸱ice correspondant⸱e à vos critères de recherche dans cette zone.\n\nEssayez de supprimer certains filtres.",
+  "empty-artistic_team": "Cet outil vous permet de chercher quelles structures de diffusion (programmateur·trice·s) sont inscrites sur CooProg, et ainsi de faciliter votre travail de démarchage.\n\nPour rechercher des structures de diffusion, veuillez saisir un nom de structure dans la barre de recherche.",
+  "location": "Localisation",
+  "programmingPeriods": "Période de programmation",
+  "company": "Structure",
+  "no-company": "Aucune structure",
+  "projects": "Projets",
+  "diffusion_structure": {
+    "count_zero": "Aucune structure de diffusion",
+    "count_one": "1 structure de diffusion",
+    "count_other": "{{count}} structures de diffusion",
+    "totalcount": "/ {{count}} structures au total"
+  },
+  "artistic_team": {
+    "count_zero": "Aucune équipe artistique",
+    "count_one": "1 équipe artistique",
+    "count_other": "{{count}} équipes artistiques",
+    "totalcount": "/ {{count}} équipes au total"
+  },
+  "disciplines": {
+    "performingArts": "Spectacle vivant",
+    "music": "Musiques actuelles"
+  },
+  "structureTypes": {
+    "venue": "Salle",
+    "festival": "Festival",
+    "itinerant": "Itinérance"
+  },
+  "explanations": {
+    "follow-eachother": "Vous vous suivez mutuellement",
+    "you-follow": "Vous suivez cette structure, mais il ne vous suit pas encore",
+    "they-follow": "Cette structure vous suit, mais vous ne le suivez pas encore",
+    "you": "C'est vous !",
+    "in-range": "Cette structure est proche de vous"
+  },
+  "filters": {
+    "filters": "Filtres",
+    "search": "Saisissez le nom d'une structure ou d'une personne pour commencer la recherche...",
+    "distance": "Distance",
+    "distance-unlimited": "Illimité",
+    "distance-helper": "Cliquez sur la distance que vous souhaitez voir...",
+    "place": "Localisation",
+    "place-helper": "Filtrer les structures en fonction de leur adresse principale (pays, région, ville).",
+    "place-country-label": "Pays",
+    "place-region-label": "Région / département",
+    "place-city-label": "Ville",
+    "followers": "Abonnés",
+    "followers-helper": "Activez ce filtre pour voir uniquement vos abonnés...",
+    "following": "Abonnements",
+    "following-helper": "Activez ce filtre pour voir uniquement les structures qui vous suivent...",
+    "discipline": "Discipline",
+    "discipline-helper": "Clique sur les disciplines que tu souhaites afficher...",
+    "clear": "Effacer tout",
+    "submit": "Afficher {{count}} structures de diffusion",
+    "structureTypes": "Type de structure",
+    "structureTypesHelper": "Activez ce filtre pour voir uniquement les structures de diffusion de ce type.",
+    "programmedGenres": "Genres",
+    "programmedGenresHelper": "Activez ce filtre pour voir uniquement les structures qui programment ces genres."
+  },
+  "sorts": {
+    "distance": "Distance plus proche",
+    "-distance": "Distance plus éloignée"
+  },
+  "profiles": "Contacts",
+  "actions": {
+    "contact": "Contacter",
+    "follow": "Suivre",
+    "copy": "Copier dans le presse-papier",
+    "copy-all": "Copier toutes les adresses emails dans le presse-papier",
+    "copy-success": "Contact copié dans le presse-papier",
+    "edit-profile": "Modifier mon compte"
+  },
+  "no-projects": "Aucun projet",
+  "followed": "Déjà suivi",
+  "follow": {
+    "success": "Demande de suivi envoyée avec succès",
+    "errors": {
+      "already-requested": "Demande déjà envoyée"
+    }
+  },
+  "follow-back": {
+    "success": "Demande de suivi réciproque envoyée avec succès"
+  },
+  "follow-accept": {
+    "success": "Acceptation de suivi effectuée avec succès"
+  },
+  "refused": {
+    "success": "Refus de suivi effectué avec succès"
+  },
+  "follower-count_zero": "Aucun abonné",
+  "follower-count_one": "1 abonné",
+  "follower-count_other": "{{count}} abonnés",
+  "unpublished-project-count_one": "Spectacles sans tournée en cours (1)",
+  "unpublished-project-count_other": "Spectacles sans tournée en cours ({{count}})",
+  "published-project-count_one": "Projet en cours de programmation (1)",
+  "published-project-count_other": "Projets en cours de programmation ({{count}})",
+  "projects-title": "Projets"
+}

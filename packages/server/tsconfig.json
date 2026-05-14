@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "baseUrl": ".",
+    "noEmit": false,
+    "outDir": "dist",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@cooprog/core": ["../core/src"]
+    }
+  },
+  "include": ["src/**/*", "src/types/**/*"],
+  "exclude": ["dist", "migrations"]
+}

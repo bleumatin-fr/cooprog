@@ -1,0 +1,14 @@
+[
+  {
+    "id": "0",
+    "name": "Indoor"
+  },
+  {
+    "id": "1",
+    "name": "Outdoor"
+  },
+  {
+    "id": "2",
+    "name": "Multiple options"
+  }
+]

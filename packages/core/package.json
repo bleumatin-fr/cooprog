@@ -1,0 +1,32 @@
+{
+  "name": "@cooprog/core",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist/"
+  ],
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup --config",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "geojson": "^0.5.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "29.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "1.0.0",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/geojson": "^7946.0.16",
+    "rollup": "4.60.1",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
